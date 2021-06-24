@@ -97,7 +97,7 @@
                                                 <div class="read-content">
                                                     <div class="media pt-3 d-sm-flex d-block justify-content-between">
 														<div class="clearfix mb-3 d-flex">
-															<img class="me-3 rounded" width="70" height="70" alt="image" src="images/avatar/1.jpg">
+															<img class="me-3 rounded" width="70" height="70" alt="image" src="{{ asset('assets/custom/images/avatar/1.jpg') }}">
 															<div class="media-body me-2">
 																<h5 class="text-primary mb-0 mt-1">Ingredia Nutrisha</h5>
 																<p class="mb-0">20 May 2020</p>

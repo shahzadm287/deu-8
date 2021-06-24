@@ -186,7 +186,7 @@
                     </div>
                     <div class="col-xl-6">
                         <div class="card">
-                            <img class="card-img-top img-fluid" src="./images/card/1.png" alt="Card image cap">
+                            <img class="card-img-top img-fluid" src="{{ asset('assets/custom/images/card/1.png') }}" alt="Card image cap">
                             <div class="card-header">
                                 <h5 class="card-title">Card title</h5>
                             </div>
@@ -198,7 +198,7 @@
                     </div>
                     <div class="col-xl-6">
                         <div class="card">
-                            <img class="card-img-top img-fluid" src="./images/card/2.png" alt="Card image cap">
+                            <img class="card-img-top img-fluid" src="{{ asset('assets/custom/images/card/2.png') }}" alt="Card image cap">
                             <div class="card-header">
                                 <h5 class="card-title">Card title</h5>
                             </div>
@@ -220,7 +220,7 @@
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text and below as a natural lead-in to the additional content. This content is a little</p>
                             </div>
-                            <img class="card-img-bottom img-fluid" src="./images/card/3.png" alt="Card image cap">
+                            <img class="card-img-bottom img-fluid" src="{{ asset('assets/custom/images/card/3.png') }}" alt="Card image cap">
                             <div class="card-footer">
                                 <p class="card-text d-inline">Card footer</p>
                                 <a href="javascript:void(0);" class="card-link float-end">Card link</a>

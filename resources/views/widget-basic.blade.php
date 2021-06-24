@@ -145,7 +145,7 @@
                                         <li>
                                             <div class="timeline-panel">
 												<div class="media me-2">
-													<img alt="image" width="50" src="images/avatar/1.jpg">
+													<img alt="image" width="50" src="{{ asset('assets/custom/images/avatar/1.jpg') }}">
 												</div>
                                                 <div class="media-body">
 													<h5 class="mb-1">Dr sultads Send you Photo</h5>
@@ -205,7 +205,7 @@
 										 <li>
                                             <div class="timeline-panel">
 												<div class="media me-2">
-													<img alt="image" width="50" src="images/avatar/1.jpg">
+													<img alt="image" width="50" src="{{ asset('assets/custom/images/avatar/1.jpg') }}">
 												</div>
                                                 <div class="media-body">
 													<h5 class="mb-1">Dr sultads Send you Photo</h5>
@@ -278,7 +278,7 @@
                                         <li>
                                             <div class="timeline-panel">
 												<div class="media me-2">
-													<img alt="image" width="50" src="images/avatar/1.jpg">
+													<img alt="image" width="50" src="{{ asset('assets/custom/images/avatar/1.jpg') }}">
 												</div>
                                                 <div class="media-body">
 													<h5 class="mb-1">Dr sultads Send you Photo</h5>
@@ -338,7 +338,7 @@
 										 <li>
                                             <div class="timeline-panel">
 												<div class="media me-2">
-													<img alt="image" width="50" src="images/avatar/1.jpg">
+													<img alt="image" width="50" src="{{ asset('assets/custom/images/avatar/1.jpg') }}">
 												</div>
                                                 <div class="media-body">
 													<h5 class="mb-1">Dr sultads Send you Photo <span class="badge light badge-danger">Danger</span></h5>
@@ -411,7 +411,7 @@
                                         <li>
                                             <div class="timeline-panel">
 												<div class="media me-2">
-													<img alt="image" width="50" src="images/avatar/1.jpg">
+													<img alt="image" width="50" src="{{ asset('assets/custom/images/avatar/1.jpg') }}">
 												</div>
                                                 <div class="media-body">
 													<h5 class="mb-1">Alfie Mason <small class="text-muted">29 July 2020</small></h5>
@@ -455,7 +455,7 @@
                                         <li>
                                             <div class="timeline-panel">
                                                 <div class="media me-2 media-success">
-													<img alt="image" width="50" src="images/avatar/2.jpg">
+													<img alt="image" width="50" src="{{ asset('assets/custom/images/avatar/2.jpg') }}">
 												</div>
 												<div class="media-body">
 													<h5 class="mb-1">Jack Ronan <small class="text-muted">29 July 2020</small></h5>
@@ -477,7 +477,7 @@
 										 <li>
                                             <div class="timeline-panel">
 												<div class="media me-2">
-													<img alt="image" width="50" src="images/avatar/1.jpg">
+													<img alt="image" width="50" src="{{ asset('assets/custom/images/avatar/1.jpg') }}">
 												</div>
                                                 <div class="media-body">
 													<h5 class="mb-1">Noah Baldon <small class="text-muted">29 July 2020</small></h5>
@@ -521,7 +521,7 @@
                                         <li>
                                             <div class="timeline-panel">
                                                 <div class="media me-2 media-primary">
-													<img alt="image" width="50" src="images/avatar/3.jpg">
+													<img alt="image" width="50" src="{{ asset('assets/custom/images/avatar/3.jpg') }}">
 												</div>
 												<div class="media-body">
 													<h5 class="mb-1">Oscar Weston  <small class="text-muted">29 July 2020</small></h5>
@@ -1093,7 +1093,7 @@
                             <div class="card-body">
                                 <div class="text-center">
                                     <div class="profile-photo">
-										<img src="images/profile/profile.png" width="100" class="img-fluid rounded-circle" alt="">
+										<img src="{{ asset('assets/custom/images/profile/profile.png') }}" width="100" class="img-fluid rounded-circle" alt="">
 									</div>
                                     <h3 class="mt-4 mb-1">Deangelo Sena</h3>
                                     <p class="text-muted">Senior Manager</p>
@@ -1160,7 +1160,7 @@
 						<div class="card overflow-hidden">
 							<div class="text-center p-3 overlay-box " style="background-image: url(images/big/img1.jpg);">
 								<div class="profile-photo">
-									<img src="images/profile/profile.png" width="100" class="img-fluid rounded-circle" alt="">
+									<img src="{{ asset('assets/custom/images/profile/profile.png') }}" width="100" class="img-fluid rounded-circle" alt="">
 								</div>
 								<h3 class="mt-3 mb-1 text-white">Deangelo Sena</h3>
 								<p class="text-white mb-0">Senior Manager</p>

@@ -1,4 +1,4 @@
-		@include("header");
+@include('header');
         <!--**********************************
             Content body start
         ***********************************-->
@@ -273,17 +273,29 @@
     <!--**********************************
         Scripts
     ***********************************-->
+    <!-- Required vendors -->
+    <script src="{{ asset('assets/custom/vendor/global/global.min.js') }}"></script>
 
     <script src="{{ asset('assets/custom/vendor/jquery-steps/build/jquery.steps.min.js') }}"></script>
+    <script src="{{ asset('assets/custom/vendor/jquery-validation/jquery.validate.min.js') }}"></script>
+    <!-- Form validate init -->
+    <script src="{{ asset('assets/custom/js/plugins-init/jquery.validate-init.js"></script>
+
+
+	<!-- Form Steps -->
+	<script src="{{ asset('assets/custom/vendor/jquery-smartwizard/dist/js/jquery.smartWizard.js') }}"></script>
+	<script src="{{ asset('assets/custom/vendor/jquery-nice-select/js/jquery.nice-select.min.js') }}"></script>
+	
+	<script src="{{ asset('assets/custom/js/custom.min.js') }}"></script>
+	<script src="{{ asset('assets/custom/js/dlabnav-init.js') }}"></script>
+	
+	
+	<script src="{{ asset('assets/custom/vendor/jquery-steps/build/jquery.steps.min.js') }}"></script>
     <script src="{{ asset('assets/custom/vendor/jquery-validation/jquery.validate.min.js') }}"></script>
     <!-- Form validate init -->
     <script src="{{ asset('assets/custom/js/plugins-init/jquery.validate-init.js') }}"></script>
 
 
-	<!-- Form Steps -->
-	<script src="{{ asset('assets/custom/vendor/jquery-smartwizard/dist/js/jquery.smartWizard.js') }}"></script>
-	
-    @include('vend');
 	
     
 	<script>

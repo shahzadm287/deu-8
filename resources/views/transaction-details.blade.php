@@ -38,7 +38,7 @@
 							</div>
 							<div class="card-body pb-3 transaction-details d-flex flex-wrap justify-content-between align-items-center">
 								<div class="user-bx-2 me-3 mb-3">
-									<img src="images/profile/1.png" class="rounded" alt="">
+									<img src="{{ asset('assets/custom/images/profile/1.png') }}" class="rounded" alt="">
 									<div>
 										<h3>Richard Michael</h3>
 										<span>@richardmichael</span>
@@ -80,7 +80,7 @@
 										<p class="description mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 									</div>
 									<div class="card-bx bg-dark-blue ms-xl-5 ms-0">
-										<img class="pattern-img" src="images/pattern/pattern11.png" alt="">
+										<img class="pattern-img" src="{{ asset('assets/custom/images/pattern/pattern11.png') }}" alt="">
 										<div class="card-info text-white">
 											<img src="images/pattern/circle.png" class="mb-4" alt="">
 											<h2 class="text-white card-balance">$24,567</h2>

@@ -24,13 +24,13 @@
 									</div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img class="d-block w-100" src="./images/big/img1.jpg" alt="First slide">
+                                            <img class="d-block w-100" src="{{ asset('assets/custom/images/big/img1.jpg') }}" alt="First slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100" src="./images/big/img2.jpg" alt="Second slide">
+                                            <img class="d-block w-100" src="{{ asset('assets/custom/images/big/img2.jpg') }}" alt="Second slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100" src="./images/big/img3.jpg" alt="Third slide">
+                                            <img class="d-block w-100" src="{{ asset('assets/custom/images/big/img3.jpg') }}" alt="Third slide">
                                         </div>
                                     </div>
 									<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -53,21 +53,21 @@
                                     <div class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img class="d-block w-100" src="./images/big/img2.jpg" alt="First slide">
+                                                <img class="d-block w-100" src="{{ asset('assets/custom/images/big/img2.jpg') }}" alt="First slide">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h5>First slide label</h5>
                                                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                                 </div>
                                             </div>
                                             <div class="carousel-item">
-                                                <img class="d-block w-100" src="./images/big/img3.jpg" alt="Second slide">
+                                                <img class="d-block w-100" src="{{ asset('assets/custom/images/big/img3.jpg') }}" alt="Second slide">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h5>Second slide label</h5>
                                                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                                 </div>
                                             </div>
                                             <div class="carousel-item">
-                                                <img class="d-block w-100" src="./images/big/img4.jpg" alt="Third slide">
+                                                <img class="d-block w-100" src="{{ asset('assets/custom/images/big/img4.jpg') }}" alt="Third slide">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h5>Third slide label</h5>
                                                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -87,13 +87,13 @@
                                     <div class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img class="d-block w-100" src="./images/big/img3.jpg" alt="First slide">
+                                                <img class="d-block w-100" src="{{ asset('assets/custom/images/big/img3.jpg') }}" alt="First slide">
                                             </div>
                                             <div class="carousel-item">
-                                                <img class="d-block w-100" src="./images/big/img4.jpg" alt="Second slide">
+                                                <img class="d-block w-100" src="{{ asset('assets/custom/images/big/img4.jpg') }}" alt="Second slide">
                                             </div>
                                             <div class="carousel-item">
-                                                <img class="d-block w-100" src="./images/big/img5.jpg" alt="Third slide">
+                                                <img class="d-block w-100" src="{{ asset('assets/custom/images/big/img5.jpg') }}" alt="Third slide">
                                             </div>
                                         </div>
                                     </div>
@@ -114,13 +114,13 @@
 										</div>
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img class="d-block w-100" src="./images/big/img4.jpg" alt="First slide">
+                                                <img class="d-block w-100" src="{{ asset('assets/custom/images/big/img4.jpg') }}" alt="First slide">
                                             </div>
                                             <div class="carousel-item">
-                                                <img class="d-block w-100" src="./images/big/img5.jpg" alt="Second slide">
+                                                <img class="d-block w-100" src="{{ asset('assets/custom/images/big/img5.jpg') }}" alt="Second slide">
                                             </div>
                                             <div class="carousel-item">
-                                                <img class="d-block w-100" src="./images/big/img6.jpg" alt="Third slide">
+                                                <img class="d-block w-100" src="{{ asset('assets/custom/images/big/img6.jpg') }}" alt="Third slide">
                                             </div>
                                         </div>
 										<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
@@ -149,21 +149,21 @@
 										</div>
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img class="d-block w-100" src="./images/big/img5.jpg" alt="">
+                                                <img class="d-block w-100" src="{{ asset('assets/custom/images/big/img5.jpg') }}" alt="">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h5>First slide label</h5>
                                                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                                 </div>
                                             </div>
                                             <div class="carousel-item">
-                                                <img alt="" class="d-block w-100" src="./images/big/img6.jpg">
+                                                <img alt="" class="d-block w-100" src="{{ asset('assets/custom/images/big/img6.jpg') }}">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h5>Second slide label</h5>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                 </div>
                                             </div>
                                             <div class="carousel-item">
-                                                <img alt="" class="d-block w-100" src="./images/big/img7.jpg">
+                                                <img alt="" class="d-block w-100" src="{{ asset('assets/custom/images/big/img7.jpg') }}">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h5>Third slide label</h5>
                                                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.

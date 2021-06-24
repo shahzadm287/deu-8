@@ -96,7 +96,7 @@
 													<div class="accordion-header collapsed" data-bs-toggle="collapse" data-bs-target="#default_collapseOne1">
 														<div class="d-flex align-items-center">
 															<div class="profile-image">
-																<img src="images/avatar/1.jpg" alt="">
+																<img src="{{ asset('assets/custom/images/avatar/1.jpg') }}" alt="">
 																<span class="bg-success">
 																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 																		<g clip-path="url(#clip3)">
@@ -159,7 +159,7 @@
 													<div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#default_collapseOne2">
 														<div class="d-flex align-items-center">
 															<div class="profile-image">
-																<img src="images/avatar/2.jpg" alt="">
+																<img src="{{ asset('assets/custom/images/avatar/2.jpg') }}" alt="">
 																<span class="bg-success">
 																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 																		<g clip-path="url(#clip31)">
@@ -221,7 +221,7 @@
 													<div class="accordion-header collapsed" data-bs-toggle="collapse" data-bs-target="#default_collapseOne3">
 														<div class="d-flex align-items-center">
 															<div class="profile-image">
-																<img src="images/avatar/3.jpg" alt="">
+																<img src="{{ asset('assets/custom/images/avatar/3.jpg') }}" alt="">
 																<span class="bg-success">
 																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 																		<g clip-path="url(#clip32)">
@@ -283,7 +283,7 @@
 													<div class="accordion-header collapsed" data-bs-toggle="collapse" data-bs-target="#default_collapseOne4">
 														<div class="d-flex align-items-center">
 															<div class="profile-image">
-																<img src="images/avatar/4.jpg" alt="">
+																<img src="{{ asset('assets/custom/images/avatar/4.jpg') }}" alt="">
 																<span class="bg-success">
 																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 																		<g clip-path="url(#clip33)">
@@ -346,7 +346,7 @@
 													<div class="accordion-header collapsed" data-bs-toggle="collapse" data-bs-target="#default_collapseOne5">
 														<div class="d-flex align-items-center">
 															<div class="profile-image">
-																<img src="images/avatar/5.jpg" alt="">
+																<img src="{{ asset('assets/custom/images/avatar/5.jpg') }}" alt="">
 																<span class="bg-success">
 																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 																		<g clip-path="url(#clip34)">
@@ -412,7 +412,7 @@
 													<div class="accordion-header collapsed" data-bs-toggle="collapse" data-bs-target="#default_collapseOne11">
 														<div class="d-flex align-items-center">
 															<div class="profile-image">
-																<img src="images/avatar/1.jpg" alt="">
+																<img src="{{ asset('assets/custom/images/avatar/1.jpg') }}" alt="">
 																<span class="bg-success">
 																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 																		<g clip-path="url(#clip35)">
@@ -475,7 +475,7 @@
 													<div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#default_collapseOne21">
 														<div class="d-flex align-items-center">
 															<div class="profile-image">
-																<img src="images/avatar/2.jpg" alt="">
+																<img src="{{ asset('assets/custom/images/avatar/2.jpg') }}" alt="">
 																<span class="bg-success">
 																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 																		<g clip-path="url(#clip36)">
@@ -537,7 +537,7 @@
 													<div class="accordion-header collapsed" data-bs-toggle="collapse" data-bs-target="#default_collapseOne31">
 														<div class="d-flex align-items-center">
 															<div class="profile-image">
-																<img src="images/avatar/3.jpg" alt="">
+																<img src="{{ asset('assets/custom/images/avatar/3.jpg') }}" alt="">
 																<span class="bg-success">
 																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 																		<g clip-path="url(#clip37)">
@@ -599,7 +599,7 @@
 													<div class="accordion-header collapsed" data-bs-toggle="collapse" data-bs-target="#default_collapseOne41">
 														<div class="d-flex align-items-center">
 															<div class="profile-image">
-																<img src="images/avatar/4.jpg" alt="">
+																<img src="{{ asset('assets/custom/images/avatar/4.jpg') }}" alt="">
 																<span class="bg-success">
 																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 																		<g clip-path="url(#clip38)">
@@ -666,7 +666,7 @@
 													<div class="accordion-header collapsed" data-bs-toggle="collapse" data-bs-target="#default_collapseOne12">
 														<div class="d-flex align-items-center">
 															<div class="profile-image">
-																<img src="images/avatar/1.jpg" alt="">
+																<img src="{{ asset('assets/custom/images/avatar/1.jpg') }}" alt="">
 																<span class="bg-success">
 																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 																		<g clip-path="url(#clip39)">
@@ -729,7 +729,7 @@
 													<div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#default_collapseOne22">
 														<div class="d-flex align-items-center">
 															<div class="profile-image">
-																<img src="images/avatar/2.jpg" alt="">
+																<img src="{{ asset('assets/custom/images/avatar/2.jpg') }}" alt="">
 																<span class="bg-success">
 																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 																		<g clip-path="url(#clip310)">
@@ -791,7 +791,7 @@
 													<div class="accordion-header collapsed" data-bs-toggle="collapse" data-bs-target="#default_collapseOne32">
 														<div class="d-flex align-items-center">
 															<div class="profile-image">
-																<img src="images/avatar/3.jpg" alt="">
+																<img src="{{ asset('assets/custom/images/avatar/3.jpg') }}" alt="">
 																<span class="bg-success">
 																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 																		<g clip-path="url(#clip311)">
@@ -861,7 +861,7 @@
 							<div class="col-xl-12 col-xxl-4 col-lg-5 col-sm-6">
 								<div class="card bg-blue action-card">
 									<div class="card-body text-white">
-										<img src="images/pattern/circle.png" class="mb-4" alt="">
+										<img src="{{ asset('assets/custom/images/pattern/circle.png') }}" class="mb-4" alt="">
 										<h2 class="text-white fs-36">$824,571.93</h2>
 										<p class="fs-16">Wallet Balance</p>
 										<span>+0,8% than last week</span>
@@ -904,7 +904,7 @@
 									</div>
 									<div class="card-body p-0">
 										<div class="invoice-list">
-											<img src="images/avatar/1.jpg" alt="" class="rounded-circle me-3">
+											<img src="{{ asset('assets/custom/images/avatar/1.jpg') }}" alt="" class="rounded-circle me-3">
 											<div class="me-auto">
 												<h6 class="fs-16 font-w600 mb-0"><a href="page-invoices.html" class="text-black">FSoziety</a></h6>
 												<span class="fs-12">4h ago</span>
@@ -912,7 +912,7 @@
 											<span class="fs-16 text-black font-w600">$45</span>
 										</div>
 										<div class="invoice-list">
-											<img src="images/avatar/2.jpg" alt="" class="rounded-circle me-3">
+											<img src="{{ asset('assets/custom/images/avatar/2.jpg') }}" alt="" class="rounded-circle me-3">
 											<div class="me-auto">
 												<h6 class="fs-16 font-w600 mb-0"><a href="page-invoices.html" class="text-black">FSoziety</a></h6>
 												<span class="fs-12">4h ago</span>
@@ -920,7 +920,7 @@
 											<span class="fs-16 text-black font-w600">$45</span>
 										</div>
 										<div class="invoice-list">
-											<img src="images/avatar/3.jpg" alt="" class="rounded-circle me-3">
+											<img src="{{ asset('assets/custom/images/avatar/3.jpg') }}" alt="" class="rounded-circle me-3">
 											<div class="me-auto">
 												<h6 class="fs-16 font-w600 mb-0"><a href="page-invoices.html" class="text-black">FSoziety</a></h6>
 												<span class="fs-12">4h ago</span>
@@ -928,7 +928,7 @@
 											<span class="fs-16 text-black font-w600">$45</span>
 										</div>
 										<div class="invoice-list">
-											<img src="images/avatar/4.jpg" alt="" class="rounded-circle me-3">
+											<img src="{{ asset('assets/custom/images/avatar/4.jpg') }}" alt="" class="rounded-circle me-3">
 											<div class="me-auto">
 												<h6 class="fs-16 font-w600 mb-0"><a href="page-invoices.html" class="text-black">FSoziety</a></h6>
 												<span class="fs-12">4h ago</span>
@@ -936,7 +936,7 @@
 											<span class="fs-16 text-black font-w600">$45</span>
 										</div>
 										<div class="invoice-list">
-											<img src="images/avatar/5.jpg" alt="" class="rounded-circle me-3">
+											<img src="{{ asset('assets/custom/images/avatar/5.jpg') }}" alt="" class="rounded-circle me-3">
 											<div class="me-auto">
 												<h6 class="fs-16 font-w600 mb-0"><a href="page-invoices.html" class="text-black">FSoziety</a></h6>
 												<span class="fs-12">4h ago</span>

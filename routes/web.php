@@ -137,3 +137,6 @@ Route::get('/page-login', function () {
 Route::get('/page-register', function () {
     return view('page-register');
 });
+Route::get('/uc-select2', function () {
+    return view('uc-select2');
+});
