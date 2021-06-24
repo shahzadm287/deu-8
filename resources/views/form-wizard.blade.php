@@ -279,7 +279,7 @@
     <script src="{{ asset('assets/custom/vendor/jquery-steps/build/jquery.steps.min.js') }}"></script>
     <script src="{{ asset('assets/custom/vendor/jquery-validation/jquery.validate.min.js') }}"></script>
     <!-- Form validate init -->
-    <script src="{{ asset('assets/custom/js/plugins-init/jquery.validate-init.js"></script>
+    <script src="{{ asset('assets/custom/js/plugins-init/jquery.validate-init.js') }}"></script>
 
 
 	<!-- Form Steps -->
