@@ -15,26 +15,26 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/email-compose', function () {
-    return view('email-compose');
+    return view('email.email-compose');
 });
 Route::get('/email-inbox', function () {
-    return view('email-inbox');
+    return view('email.email-inbox');
 });
 Route::get('/email-read', function () {
-    return view('email-read');
+    return view('email.email-read');
 });
 Route::get('/form-element', function () {
-    return view('form-element');
+    return view('forms.form-element');
 });
 Route::get('/form-pickers', function () {
-    return view('form-pickers');
+    return view('forms.form-pickers');
 });
 Route::get('/form-validation', function () {
-    return view('form-validation');
+    return view('forms.form-validation');
 });
 
 Route::get('/form-wizard', function () {
-    return view('form-wizard');
+    return view('forms.form-wizard');
 });
 Route::get('/', function () {
     return view('index');
@@ -56,87 +56,90 @@ Route::get('/page-transaction', function () {
 });
 
 Route::get('/table-bootstrap-basic', function () {
-    return view('table-bootstrap-basic');
+    return view('table.table-bootstrap-basic');
 });
 Route::get('/table-datatable-basic', function () {
-    return view('table-datatable-basic');
+    return view('table.table-datatable-basic');
 });
 Route::get('/transaction-details', function () {
     return view('transaction-details');
 });
 Route::get('/uc-noui-slider', function () {
-    return view('uc-noui-slider');
+    return view('plugin.uc-noui-slider');
 });
 
 Route::get('/uc-sweetalert', function () {
-    return view('uc-sweetalert');
+    return view('plugin.uc-sweetalert');
 });
 Route::get('/uc-toastr', function () {
-    return view('uc-toastr');
+    return view('plugin.uc-toastr');
 });
 Route::get('/ui-accordion', function () {
-    return view('ui-accordion');
+    return view('boostrap.ui-accordion');
 });
 Route::get('/ui-alert', function () {
-    return view('ui-alert');
+    return view('boostrap.ui-alert');
 });
 Route::get('/ui-badge', function () {
-    return view('ui-badge');
+    return view('boostrap.ui-badge');
 });
 
 Route::get('/ui-button', function () {
-    return view('ui-button');
+    return view('boostrap.ui-button');
 });
 
 Route::get('/ui-button-group', function () {
-    return view('ui-button-group');
+    return view('boostrap.ui-button-group');
 });
 Route::get('/ui-card', function () {
-    return view('ui-card');
+    return view('boostrap.ui-card');
 });
 Route::get('/ui-carousel', function () {
-    return view('ui-carousel');
+    return view('boostrap.ui-carousel');
 });
 Route::get('/ui-dropdown', function () {
-    return view('ui-dropdown');
+    return view('boostrap.ui-dropdown');
 });
 Route::get('/ui-grid', function () {
-    return view('ui-grid');
+    return view('boostrap.ui-grid');
 });
 Route::get('/ui-list-group', function () {
-    return view('ui-list-group');
+    return view('boostrap.ui-list-group');
 });
 Route::get('/ui-modal', function () {
-    return view('ui-modal');
+    return view('boostrap.ui-modal');
 });
 Route::get('/ui-pagination', function () {
-    return view('ui-pagination');
+    return view('boostrap.ui-pagination');
 });
 
 Route::get('/ui-popover', function () {
-    return view('ui-popover');
+    return view('boostrap.ui-popover');
 });
 
 Route::get('/ui-progressbar', function () {
-    return view('ui-progressbar');
+    return view('boostrap.ui-progressbar');
 });
 
 Route::get('/ui-tab', function () {
-    return view('ui-tab');
+    return view('boostrap.ui-tab');
 });
 
 Route::get('/ui-typography', function () {
-    return view('ui-typography');
+    return view('boostrap.ui-typography');
 });
 Route::get('/widget-basic', function () {
     return view('widget-basic');
 });
 Route::get('/page-login', function () {
-    return view('page-login');
+    return view('auth.page-login');
 });
 Route::get('/page-register', function () {
-    return view('page-register');
+    return view('auth.page-register');
 });
 Route::get('/uc-select2', function () {
-    return view('uc-select2');
+    return view('plugin.uc-select2');
+});
+Route::get('/page-error', function () {
+    return view('pages.page-error-404');
 });

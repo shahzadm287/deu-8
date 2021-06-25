@@ -15,12 +15,18 @@
 	
 	<!-- PAGE TITLE HERE -->
 	<title>Dompet : Payment Admin Template</title>
-	<script src="{{ asset('assets/js/my.js') }}"></script>
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="{{ asset('assets/custom/js/images/favicon.png') }}" />
 	<link href="{{ asset('assets/custom/vendor/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/custom/vendor/dropzone/dist/dropzone.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/custom/css/style.css') }}" rel="stylesheet">
+	
+	    <!-- Pick date -->
+    <link rel="stylesheet" href="{{ asset('assets/custom/vendor/pickadate/themes/default.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/custom/vendor/pickadate/themes/default.date.css') }}">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+	
 
 </head>
 
@@ -895,11 +901,7 @@
                         <ul aria-expanded="false">
                             <li><a href="{{ url('/page-login') }}">Login</a></li>
                             <li><a href="{{ url('/page-register') }}">Register</a></li>
-                            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
-                                <ul aria-expanded="false">
-                                    <li><a href="{{ url('/page-error-404') }}">Error 404</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="{{ url('/page-error') }}">Error 404</a></li>
                         </ul>
                     </li>
                 </ul>
