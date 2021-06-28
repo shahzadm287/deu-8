@@ -9332,7 +9332,7 @@ label {
   position: absolute;
   left: 1.25rem;
   top: 1.25rem;
-  background-color: var(--nav-headbg);
+  background-color: #dd3546;
   transition: all .2s ease;
   z-index: 5; }
   .nav-header .logo-abbr {
@@ -9388,13 +9388,13 @@ label {
       top: 0;
       background: transparent; }
       .nav-header .svg-logo-primary-path {
-        fill: var(--primary) !important; }
+        fill: #fff !important; }
       .nav-header .logo-abbr path:nth-child(1) {
         fill: #759DD9 !important; }
       .nav-header .logo-abbr path:nth-child(2) {
         fill: #F8A961 !important; } }
   .nav-header .svg-logo-primary-path {
-    fill: var(--primary); }
+    fill: #fff; }
 
 @media only screen and (max-width: 1199px) {
   .nav-header {
@@ -9680,7 +9680,9 @@ svg.pulse-svg {
     [data-header-position="fixed"] .content-body {
       padding-top: 5rem; } }
 [data-header-position="fixed"] .dlabnav {
-  margin-top: 0; }
+	margin-top: 0; 
+	background-color: #dd3546;
+  }
 
 [data-sidebar-style="compact"][data-header-position="fixed"][data-container="boxed"][data-layout="vertical"] .header {
   width: 1199px; }
@@ -12287,9 +12289,9 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
         font-weight: 400;
         display: inline-block;
         font-size: 18px;
-        color: #9fa4a6; }
+        color: #fff; }
         .dlabnav .metismenu > li > a i {
-          color: #9fa4a6; }
+          color: #fff; }
         .dlabnav .metismenu > li > a svg {
           max-width: 24px;
           max-height: 24px;
@@ -12358,7 +12360,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
       display: block;
       padding: 0.625rem 1.875rem;
       outline-width: 0;
-      color: #759791;
+      color: #fff;
       text-decoration: none; }
       @media only screen and (max-width: 767px) {
         .dlabnav .metismenu a {
@@ -12743,7 +12745,8 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     position: relative; }
     [data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .dlabnav .metismenu li a {
       background: transparent;
-      margin: 2px 0; }
+      margin: 2px 0; 
+	  color:#fff}
       [data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .dlabnav .metismenu li a svg {
         max-width: 24px;
         max-height: 24px;
@@ -12765,7 +12768,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
       border-radius: 6px;
       margin-left: 0;
       border: 0;
-      background: #fff; }
+      background: #e4606d; }
       [direction="rtl"][data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .dlabnav .metismenu li > ul {
         left: auto;
         right: 5rem; }
@@ -13881,12 +13884,18 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 
 [data-sidebar-position="fixed"][data-layout="vertical"] .nav-header {
   position: fixed;
+  /*
   border-top-left-radius: 1.25rem;
-  border-top-right-radius: 1.25rem; }
+  border-top-right-radius: 1.25rem; 
+  */
+  }
 [data-sidebar-position="fixed"][data-layout="vertical"] .dlabnav {
   position: fixed;
+  /*
   border-bottom-left-radius: 1.25rem;
-  border-bottom-right-radius: 1.25rem; }
+  border-bottom-right-radius: 1.25rem;
+	*/
+  }
   [data-sidebar-position="fixed"][data-layout="vertical"] .dlabnav .dlabnav-scroll {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px; }
@@ -13894,11 +13903,17 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   position: fixed; }
 
 [data-layout="vertical"] .nav-header {
+  /*
   border-top-left-radius: 1.25rem;
-  border-top-right-radius: 1.25rem; }
+  border-top-right-radius: 1.25rem; 
+  */
+  }
 [data-layout="vertical"] .dlabnav {
+  /*
   border-bottom-left-radius: 1.25rem;
-  border-bottom-right-radius: 1.25rem; }
+  border-bottom-right-radius: 1.25rem; 
+  */
+  }
 
 [data-sidebar-style="icon-hover"][data-layout="vertical"][data-container="wide-boxed"] .dlabnav,
 [data-sidebar-style="icon-hover"][data-layout="vertical"][data-container="boxed"] .dlabnav,
