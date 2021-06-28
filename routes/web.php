@@ -48,11 +48,11 @@ Route::get('/my-wallet', function () {
     return view('my-wallet');
 });
 Route::get('/page-invoices', function () {
-    return view('page-invoices');
+    return view('pages.page-invoices');
 });
 
 Route::get('/page-transaction', function () {
-    return view('page-transaction');
+    return view('pages.page-transaction');
 });
 
 Route::get('/table-bootstrap-basic', function () {
