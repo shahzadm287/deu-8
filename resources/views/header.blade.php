@@ -59,9 +59,9 @@
 	    <!-- Pick date -->
     <link rel="stylesheet" href="{{ asset('assets/custom/vendor/pickadate/themes/default.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/custom/vendor/pickadate/themes/default.date.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/custom/vendor/jquery-smartwizard/dist/css/smart_wizard.min.css') }}">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-	
+
 
 </head>
 
@@ -109,10 +109,6 @@
         Main wrapper start
     ***********************************-->
     <div id="main-wrapper">
-      
-
-
-
 	  <!--**********************************
             Nav header start
         ***********************************-->
@@ -138,6 +134,10 @@
         <!--**********************************
             Nav header end
         ***********************************-->	
+      
+
+
+
 	<!--**********************************
             Chat box start
         ***********************************-->

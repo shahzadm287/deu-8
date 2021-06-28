@@ -47,7 +47,7 @@
 										<td><span class="text-black text-nowrap">#June 1, 2020, 08:22 AM</span></td>
 										<td>
 											<div class="d-flex align-items-center">
-												<img src="images/avatar/1.jpg" alt="" class="rounded me-3" width="50">
+												<img src="{{ asset('assets/custom/images/avatar/1.jpg') }}" alt="" class="rounded me-3" width="50">
 												<div>
 													<h6 class="fs-16 text-black font-w600 mb-0 text-nowrap">XYZ Store ID</h6>
 													<span class="fs-14">Online Shop</span>
@@ -85,7 +85,7 @@
 										<td><span class="text-black text-nowrap">#June 1, 2020, 08:22 AM</span></td>
 										<td>
 											<div class="d-flex align-items-center">
-												<img src="images/avatar/2.jpg" alt="" class="rounded me-3" width="50">
+												<img src="{{ asset('assets/custom/images/avatar/2.jpg') }}" alt="" class="rounded me-3" width="50">
 												<div>
 													<h6 class="fs-16 text-black font-w600 mb-0 text-nowrap">Hawkins Jr.</h6>
 													<span class="fs-14">@hawkins</span>
@@ -123,7 +123,7 @@
 										<td><span class="text-black text-nowrap">#June 1, 2020, 08:22 AM</span></td>
 										<td>
 											<div class="d-flex align-items-center">
-												<img src="images/avatar/3.jpg" alt="" class="rounded me-3" width="50">
+												<img src="{{ asset('assets/custom/images/avatar/3.jpg') }}" alt="" class="rounded me-3" width="50">
 												<div>
 													<h6 class="fs-16 text-black font-w600 mb-0 text-nowrap">Kevin Samuel</h6>
 													<span class="fs-14">@kevin</span>
@@ -161,7 +161,7 @@
 										<td><span class="text-black text-nowrap">#June 1, 2020, 08:22 AM</span></td>
 										<td>
 											<div class="d-flex align-items-center">
-												<img src="images/avatar/4.jpg" alt="" class="rounded me-3" width="50">
+												<img src="{{ asset('assets/custom/images/avatar/4.jpg') }}" alt="" class="rounded me-3" width="50">
 												<div>
 													<h6 class="fs-16 text-black font-w600 mb-0 text-nowrap">Jons Sitepu</h6>
 													<span class="fs-14">@jonsitepu</span>
@@ -199,7 +199,7 @@
 										<td><span class="text-black text-nowrap">#June 1, 2020, 08:22 AM</span></td>
 										<td>
 											<div class="d-flex align-items-center">
-												<img src="images/avatar/5.jpg" alt="" class="rounded me-3" width="50">
+												<img src="{{ asset('assets/custom/images/avatar/5.jpg') }}" alt="" class="rounded me-3" width="50">
 												<div>
 													<h6 class="fs-16 text-black font-w600 mb-0 text-nowrap">Brian Harefa</h6>
 													<span class="fs-14">@brianharefa</span>
@@ -237,7 +237,7 @@
 										<td><span class="text-black text-nowrap">#June 1, 2020, 08:22 AM</span></td>
 										<td>
 											<div class="d-flex align-items-center">
-												<img src="images/avatar/6.jpg" alt="" class="rounded me-3" width="50">
+												<img src="{{ asset('assets/custom/images/avatar/6.jpg') }}" alt="" class="rounded me-3" width="50">
 												<div>
 													<h6 class="fs-16 text-black font-w600 mb-0 text-nowrap">David Here</h6>
 													<span class="fs-14">@davidhere</span>
@@ -275,7 +275,7 @@
 										<td><span class="text-black text-nowrap">#June 1, 2020, 08:22 AM</span></td>
 										<td>
 											<div class="d-flex align-items-center">
-												<img src="images/avatar/7.jpg" alt="" class="rounded me-3" width="50">
+												<img src="{{ asset('assets/custom/images/avatar/7.jpg') }}" alt="" class="rounded me-3" width="50">
 												<div>
 													<h6 class="fs-16 text-black font-w600 mb-0 text-nowrap">Fanny Stefanus</h6>
 													<span class="fs-14">@fannystefan</span>
@@ -313,7 +313,7 @@
 										<td><span class="text-black text-nowrap">#June 1, 2020, 08:22 AM</span></td>
 										<td>
 											<div class="d-flex align-items-center">
-												<img src="images/avatar/8.jpg" alt="" class="rounded me-3" width="50">
+												<img src="{{ asset('assets/custom/images/avatar/8.jpg') }}" alt="" class="rounded me-3" width="50">
 												<div>
 													<h6 class="fs-16 text-black font-w600 mb-0 text-nowrap">XYZ Store ID</h6>
 													<span class="fs-14">Online Shop</span>
@@ -351,7 +351,7 @@
 										<td><span class="text-black text-nowrap">#June 1, 2020, 08:22 AM</span></td>
 										<td>
 											<div class="d-flex align-items-center">
-												<img src="images/avatar/5.jpg" alt="" class="rounded me-3" width="50">
+												<img src="{{ asset('assets/custom/images/avatar/5.jpg') }}" alt="" class="rounded me-3" width="50">
 												<div>
 													<h6 class="fs-16 text-black font-w600 mb-0 text-nowrap">XYZ Store ID</h6>
 													<span class="fs-14">Online Shop</span>
@@ -389,7 +389,7 @@
 										<td><span class="text-black text-nowrap">#June 1, 2020, 08:22 AM</span></td>
 										<td>
 											<div class="d-flex align-items-center">
-												<img src="images/avatar/1.jpg" alt="" class="rounded me-3" width="50">
+												<img src="{{ asset('assets/custom/images/avatar/1.jpg') }}" alt="" class="rounded me-3" width="50">
 												<div>
 													<h6 class="fs-16 text-black font-w600 mb-0 text-nowrap">XYZ Store ID</h6>
 													<span class="fs-14">Online Shop</span>
@@ -427,7 +427,7 @@
 										<td><span class="text-black text-nowrap">#June 1, 2020, 08:22 AM</span></td>
 										<td>
 											<div class="d-flex align-items-center">
-												<img src="images/avatar/1.jpg" alt="" class="rounded me-3" width="50">
+												<img src="{{ asset('assets/custom/images/avatar/1.jpg') }}" alt="" class="rounded me-3" width="50">
 												<div>
 													<h6 class="fs-16 text-black font-w600 mb-0 text-nowrap">XYZ Store ID</h6>
 													<span class="fs-14">Online Shop</span>

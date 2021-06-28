@@ -129,7 +129,7 @@
 													</div>
 												</td>
                                                 <td><strong>542</strong></td>
-                                                <td><div class="d-flex align-items-center"><img src="images/avatar/1.jpg" class="rounded-lg me-2" width="24" alt=""/> <span class="w-space-no">Dr. Jackson</span></div></td>
+                                                <td><div class="d-flex align-items-center"><img src="{{ asset('assets/custom/images/avatar/1.jpg') }}" class="rounded-lg me-2" width="24" alt=""/> <span class="w-space-no">Dr. Jackson</span></div></td>
                                                 <td>example@example.com	</td>
                                                 <td>01 August 2020</td>
                                                 <td><div class="d-flex align-items-center"><i class="fa fa-circle text-success me-1"></i> Successful</div></td>
@@ -148,7 +148,7 @@
 													</div>
 												</td>
                                                 <td><strong>542</strong></td>
-                                                <td><div class="d-flex align-items-center"><img src="images/avatar/2.jpg" class="rounded-lg me-2" width="24" alt=""/> <span class="w-space-no">Dr. Jackson</span></div></td>
+                                                <td><div class="d-flex align-items-center"><img src="{{ asset('assets/custom/images/avatar/2.jpg') }}" class="rounded-lg me-2" width="24" alt=""/> <span class="w-space-no">Dr. Jackson</span></div></td>
                                                 <td>example@example.com	</td>
                                                 <td>01 August 2020</td>
                                                 <td><div class="d-flex align-items-center"><i class="fa fa-circle text-danger me-1"></i> Canceled</div></td>
@@ -167,7 +167,7 @@
 													</div>
 												</td>
                                                 <td><strong>542</strong></td>
-                                                <td><div class="d-flex align-items-center"><img src="images/avatar/3.jpg" class="rounded-lg me-2" width="24" alt=""/> <span class="w-space-no">Dr. Jackson</span></div></td>
+                                                <td><div class="d-flex align-items-center"><img src="{{ asset('assets/custom/images/avatar/3.jpg') }}" class="rounded-lg me-2" width="24" alt=""/> <span class="w-space-no">Dr. Jackson</span></div></td>
                                                 <td>example@example.com	</td>
                                                 <td>01 August 2020</td>
                                                 <td><div class="d-flex align-items-center"><i class="fa fa-circle text-warning me-1"></i> Pending</div></td>

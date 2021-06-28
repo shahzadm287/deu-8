@@ -61,7 +61,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/1.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/1.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 													</div>
@@ -114,7 +114,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/2.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/2.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Jeremy Tedy</h6>
 													</div>
@@ -167,7 +167,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/3.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/3.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Clown Studio</h6>
 													</div>
@@ -214,7 +214,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/4.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/4.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Samuel Bro</h6>
 													</div>
@@ -267,7 +267,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/5.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/5.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">David Oconner</h6>
 													</div>
@@ -320,7 +320,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/6.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/6.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Cindy Seea</h6>
 													</div>
@@ -367,7 +367,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/7.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/7.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 														<span class="fs-14 text-light">Freelancer</span>
@@ -421,7 +421,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/8.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/8.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 													</div>
@@ -474,7 +474,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/1.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/1.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 													</div>
@@ -527,7 +527,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/2.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/2.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 														<span class="fs-14 text-light">Studio</span>
@@ -581,7 +581,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/3.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/3.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 													</div>
@@ -634,7 +634,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/4.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/4.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 													</div>
@@ -687,7 +687,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/5.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/5.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 													</div>
@@ -767,7 +767,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/1.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/1.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 													</div>
@@ -820,7 +820,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/2.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/2.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Jeremy Tedy</h6>
 													</div>
@@ -873,7 +873,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/3.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/3.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Clown Studio</h6>
 													</div>
@@ -920,7 +920,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/4.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/4.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Samuel Bro</h6>
 													</div>
@@ -973,7 +973,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/5.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/5.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">David Oconner</h6>
 													</div>
@@ -1026,7 +1026,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/6.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/6.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Cindy Seea</h6>
 													</div>
@@ -1073,7 +1073,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/7.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/7.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 														<span class="fs-14 text-light">Freelancer</span>
@@ -1127,7 +1127,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/8.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/8.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 													</div>
@@ -1207,7 +1207,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/1.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/1.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 													</div>
@@ -1260,7 +1260,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/2.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/2.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Jeremy Tedy</h6>
 													</div>
@@ -1313,7 +1313,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/3.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/3.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Clown Studio</h6>
 													</div>
@@ -1360,7 +1360,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/4.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/4.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Samuel Bro</h6>
 													</div>
@@ -1413,7 +1413,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/5.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/5.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">David Oconner</h6>
 													</div>
@@ -1466,7 +1466,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/6.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/6.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Cindy Seea</h6>
 													</div>
@@ -1513,7 +1513,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/7.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/7.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 														<span class="fs-14 text-light">Freelancer</span>
@@ -1567,7 +1567,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/8.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/8.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 													</div>
@@ -1647,7 +1647,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/1.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/1.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 													</div>
@@ -1700,7 +1700,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/2.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/2.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Jeremy Tedy</h6>
 													</div>
@@ -1753,7 +1753,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/3.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/3.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Clown Studio</h6>
 													</div>
@@ -1800,7 +1800,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/4.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/4.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Samuel Bro</h6>
 													</div>
@@ -1853,7 +1853,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/5.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/5.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">David Oconner</h6>
 													</div>
@@ -1906,7 +1906,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/6.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/6.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Cindy Seea</h6>
 													</div>
@@ -1953,7 +1953,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/7.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/7.jpg') }}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 														<span class="fs-14 text-light">Freelancer</span>
@@ -2007,7 +2007,7 @@
 											<td><span class="text-nowrap">June 1, 2020, 08:22 AM</span></td>
 											<td>
 												<div class="d-flex align-items-center">
-													<img src="images/avatar/8.jpg" alt="" class="rounded-circle me-3" width="50">
+													<img src="{{ asset('assets/custom/images/avatar/8.jpg')}}" alt="" class="rounded-circle me-3" width="50">
 													<div>
 														<h6 class="fs-16 mb-0 text-nowrap">Nurkomariah</h6>
 													</div>

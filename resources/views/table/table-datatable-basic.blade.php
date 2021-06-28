@@ -1020,7 +1020,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><img class="rounded-circle" width="35" src="images/profile/small/pic1.jpg" alt=""></td>
+                                                <td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic1.jpg') }}" alt=""></td>
                                                 <td>Tiger Nixon</td>
                                                 <td>Architect</td>
                                                 <td>Male</td>
@@ -1036,7 +1036,7 @@
 												</td>												
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic2.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic2.jpg') }}" alt=""></td>
                                                 <td>Garrett Winters</td>
                                                 <td>Accountant</td>
                                                 <td>Female</td>
@@ -1052,7 +1052,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic3.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic3.jpg') }}" alt=""></td>
                                                 <td>Ashton Cox</td>
                                                 <td>Junior Technical</td>
                                                 <td>Male</td>
@@ -1068,7 +1068,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic4.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic4.jpg') }}" alt=""></td>
                                                 <td>Cedric Kelly</td>
                                                 <td>Developer</td>
                                                 <td>Male</td>
@@ -1084,7 +1084,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic5.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic5.jpg') }}" alt=""></td>
                                                 <td>Airi Satou</td>
                                                 <td>Accountant</td>
                                                 <td>Female</td>
@@ -1100,7 +1100,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic6.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic6.jpg') }}" alt=""></td>
                                                 <td>Brielle Williamson</td>
                                                 <td>Specialist</td>
                                                 <td>Male</td>
@@ -1116,7 +1116,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic7.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic7.jpg') }}" alt=""></td>
                                                 <td>Herrod Chandler</td>
                                                 <td>Sales Assistant</td>
                                                 <td>Female</td>
@@ -1132,7 +1132,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic8.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic8.jpg') }}" alt=""></td>
                                                 <td>Rhona Davidson</td>
                                                 <td>Integration</td>
                                                 <td>Male</td>
@@ -1148,7 +1148,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic9.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic9.jpg') }}" alt=""></td>
                                                 <td>Colleen Hurst</td>
                                                 <td>Javascript Developer</td>
                                                 <td>Female</td>
@@ -1164,7 +1164,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic10.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic10.jpg') }}" alt=""></td>
                                                 <td>Sonya Frost</td>
                                                 <td>Software Engineer</td>
                                                 <td>Male</td>
@@ -1180,7 +1180,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic1.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic1.jpg') }}" alt=""></td>
                                                 <td>Jena Gaines</td>
                                                 <td>Office Manager</td>
                                                 <td>Female</td>
@@ -1196,7 +1196,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic2.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic2.jpg') }}" alt=""></td>
                                                 <td>Quinn Flynn</td>
                                                 <td>Support Lead</td>
                                                 <td>Male</td>
@@ -1212,7 +1212,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic3.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic3.jpg') }}" alt=""></td>
                                                 <td>Charde Marshall</td>
                                                 <td>Regional Director</td>
                                                 <td>Female</td>
@@ -1228,7 +1228,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic4.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic4.jpg') }}" alt=""></td>
                                                 <td>Haley Kennedy</td>
                                                 <td>Senior Marketing</td>
                                                 <td>Male</td>
@@ -1244,7 +1244,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic5.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic5.jpg') }}" alt=""></td>
                                                 <td>Tatyana Fitzpatrick</td>
                                                 <td>Regional Director</td>
                                                 <td>Male</td>
@@ -1260,7 +1260,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic6.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic6.jpg') }}" alt=""></td>
                                                 <td>Michael Silva</td>
                                                 <td>Marketing Designer</td>
                                                 <td>Female</td>
@@ -1276,7 +1276,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic7.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic7.jpg') }}" alt=""></td>
                                                 <td>Paul Byrd</td>
                                                 <td>Financial Officer</td>
                                                 <td>Male</td>
@@ -1292,7 +1292,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic8.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic8.jpg') }}" alt=""></td>
                                                 <td>Gloria Little</td>
                                                 <td>Systems Administrator</td>
                                                 <td>Female</td>
@@ -1308,7 +1308,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic9.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic9.jpg') }}" alt=""></td>
                                                 <td>Bradley Greer</td>
                                                 <td>Software Engineer</td>
                                                 <td>Male</td>
@@ -1324,7 +1324,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic10.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic10.jpg') }}" alt=""></td>
                                                 <td>Dai Rios</td>
                                                 <td>Personnel Lead</td>
                                                 <td>Male</td>
@@ -1340,7 +1340,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic1.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic1.jpg') }}" alt=""></td>
                                                 <td>Jenette Caldwell</td>
                                                 <td>Development Lead</td>
                                                 <td>Female</td>
@@ -1356,7 +1356,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic2.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic2.jpg') }}" alt=""></td>
                                                 <td>Yuri Berry</td>
                                                 <td>Marketing Officer</td>
                                                 <td>Male</td>
@@ -1372,7 +1372,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic3.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic3.jpg') }}" alt=""></td>
                                                 <td>Caesar Vance</td>
                                                 <td>Pre-Sales Support</td>
                                                 <td>Male</td>
@@ -1388,7 +1388,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic4.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic4.jpg') }}" alt=""></td>
                                                 <td>Doris Wilder</td>
                                                 <td>Sales Assistant</td>
                                                 <td>Female</td>
@@ -1404,7 +1404,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic5.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic5.jpg') }}" alt=""></td>
                                                 <td>Angelica Ramos</td>
                                                 <td>Executive Officer</td>
                                                 <td>Male</td>
@@ -1420,7 +1420,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic6.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic6.jpg') }}" alt=""></td>
                                                 <td>Gavin Joyce</td>
                                                 <td>Developer</td>
                                                 <td>Female</td>
@@ -1436,7 +1436,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic7.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic7.jpg') }}" alt=""></td>
                                                 <td>Jennifer Chang</td>
                                                 <td>Regional Director</td>
                                                 <td>Male</td>
@@ -1452,7 +1452,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic8.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic8.jpg') }}" alt=""></td>
                                                 <td>Brenden Wagner</td>
                                                 <td>Software Engineer</td>
                                                 <td>Female</td>
@@ -1468,7 +1468,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic9.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic9.jpg') }}" alt=""></td>
                                                 <td>Fiona Green</td>
                                                 <td>Operating Officer</td>
                                                 <td>Male</td>
@@ -1484,7 +1484,7 @@
 												</td>
                                             </tr>
                                             <tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic10.jpg" alt=""></td>
+												<td><img class="rounded-circle" width="35" src="{{ asset('assets/custom/images/profile/small/pic10.jpg') }}" alt=""></td>
                                                 <td>Shou Itou</td>
                                                 <td>Regional Marketing</td>
                                                 <td>Female</td>
