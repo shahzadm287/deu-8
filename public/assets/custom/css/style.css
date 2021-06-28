@@ -8566,7 +8566,7 @@ a {
   text-decoration: none; }
 
 .bg-primary {
-  background-color: var(--primary) !important; }
+  background-color: #ffa755 !important; }
 
 .text-primary {
   color: var(--primary) !important; }
@@ -9394,7 +9394,7 @@ label {
       .nav-header .logo-abbr path:nth-child(2) {
         fill: #F8A961 !important; } }
   .nav-header .svg-logo-primary-path {
-    fill: #fff; }
+    fill: #ffa755; }
 
 @media only screen and (max-width: 1199px) {
   .nav-header {
@@ -22743,7 +22743,9 @@ button {
       padding: 0.625rem 1rem;
       font-size: 0.813rem; } }
   .btn.btn-success, .btn.btn-secondary, .btn.btn-warning, .btn.btn-primary, .btn.btn-danger, .btn.btn-info {
-    color: #fff; }
+    color: #fff; 
+	background-color:#ffa755;
+	}
   .btn-transparent {
     background-color: transparent; }
 
