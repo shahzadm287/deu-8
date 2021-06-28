@@ -74,7 +74,7 @@
 @import url(./../vendor/perfect-scrollbar/css/perfect-scrollbar.css);
 @import url(./../vendor/metismenu/css/metisMenu.min.css);
 :root {
-  --primary: #5bcfc5;
+  --primary: #dd3546;
   --secondary: #709fba;
   --primary-hover: #38bfb3;
   --primary-dark: #217069;
@@ -12289,7 +12289,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
         font-weight: 400;
         display: inline-block;
         font-size: 18px;
-        color: #fff; }
+        color: #fff !important; }
         .dlabnav .metismenu > li > a i {
           color: #fff; }
         .dlabnav .metismenu > li > a svg {
@@ -12342,7 +12342,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
             font-size: 14px; } }
         .dlabnav .metismenu ul a:hover, .dlabnav .metismenu ul a:focus, .dlabnav .metismenu ul a.mm-active {
           text-decoration: none;
-          color: var(--primary); }
+          color: #193b62 !important; }
         .dlabnav .metismenu ul a:before {
           position: absolute;
           content: none;
@@ -12659,7 +12659,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   width: 50vw; }
 
 :root {
-  --primary: #5bcfc5;
+  --primary: #dd3546;
   --secondary: #709fba;
   --primary-hover: #38bfb3;
   --primary-dark: #217069;
@@ -12848,7 +12848,7 @@ The smaller device rules always should write below the bigger device rules
 Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Component
 */
 :root {
-  --primary: #5bcfc5;
+  --primary: #dd3546;
   --secondary: #709fba;
   --primary-hover: #38bfb3;
   --primary-dark: #217069;
@@ -13073,7 +13073,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   [data-sidebar-style="mini"] .dlabnav li a.has-arrow::after {
     transform: rotate(-45deg) translateY(-50%); } }
 :root {
-  --primary: #5bcfc5;
+  --primary: #dd3546;
   --secondary: #709fba;
   --primary-hover: #38bfb3;
   --primary-dark: #217069;
@@ -18355,7 +18355,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   --rgba-primary-9: rgba(102, 16, 242, 0.9); }
 
 [data-primary="color_3"] {
-  --primary: #5bcfc5;
+  --primary: #dd3546;
   --secondary: #709fba;
   --primary-hover: #38bfb3;
   --primary-dark: #217069;
@@ -18565,9 +18565,9 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   font-family: 'HelveticaNeue'; }
 
 :root {
-  --primary: #5bcfc5;
+  --primary: #dd3546;
   --secondary: #709fba;
-  --primary-hover: #38bfb3;
+  --primary-hover: #dd3546;
   --primary-dark: #217069;
   --rgba-primary-1: rgba(91, 207, 197, 0.1);
   --rgba-primary-2: rgba(91, 207, 197, 0.2);
@@ -18692,9 +18692,9 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     border-color: transparent transparent rgba(0, 0, 0, 0.15) transparent; }
 
 :root {
-  --primary: #5bcfc5;
+  --primary: #dd3546;
   --secondary: #709fba;
-  --primary-hover: #38bfb3;
+  --primary-hover: #dd3546;
   --primary-dark: #217069;
   --rgba-primary-1: rgba(91, 207, 197, 0.1);
   --rgba-primary-2: rgba(91, 207, 197, 0.2);
@@ -20570,9 +20570,9 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   border-radius: 1rem; }
 
 :root {
-  --primary: #5bcfc5;
+  --primary: #dd3546;
   --secondary: #709fba;
-  --primary-hover: #38bfb3;
+  --primary-hover: #dd3546;
   --primary-dark: #217069;
   --rgba-primary-1: rgba(91, 207, 197, 0.1);
   --rgba-primary-2: rgba(91, 207, 197, 0.2);
@@ -21046,9 +21046,9 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   color: #969ba0; }
 
 :root {
-  --primary: #5bcfc5;
+  --primary: #dd3546;
   --secondary: #709fba;
-  --primary-hover: #38bfb3;
+  --primary-hover: #dd3546;
   --primary-dark: #217069;
   --rgba-primary-1: rgba(91, 207, 197, 0.1);
   --rgba-primary-2: rgba(91, 207, 197, 0.2);
@@ -21295,9 +21295,9 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   border-bottom-right-radius: 0; }
 
 :root {
-  --primary: #5bcfc5;
+  --primary: #dd3546;
   --secondary: #709fba;
-  --primary-hover: #38bfb3;
+  --primary-hover: #dd3546;
   --primary-dark: #217069;
   --rgba-primary-1: rgba(91, 207, 197, 0.1);
   --rgba-primary-2: rgba(91, 207, 197, 0.2);
@@ -21340,9 +21340,9 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     font-weight: 700; }
 
 :root {
-  --primary: #5bcfc5;
+  --primary: #dd3546;
   --secondary: #709fba;
-  --primary-hover: #38bfb3;
+  --primary-hover: #dd3546;
   --primary-dark: #217069;
   --rgba-primary-1: rgba(91, 207, 197, 0.1);
   --rgba-primary-2: rgba(91, 207, 197, 0.2);
@@ -21393,9 +21393,9 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   font-size: 2rem; }
 
 :root {
-  --primary: #5bcfc5;
+  --primary: #dd3546;
   --secondary: #709fba;
-  --primary-hover: #38bfb3;
+  --primary-hover: #dd3546;
   --primary-dark: #217069;
   --rgba-primary-1: rgba(91, 207, 197, 0.1);
   --rgba-primary-2: rgba(91, 207, 197, 0.2);
@@ -29593,7 +29593,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   padding-right: 9.375rem; }
 
 :root {
-  --primary: #5bcfc5;
+  --primary: #dd3546;
   --secondary: #709fba;
   --primary-hover: #38bfb3;
   --primary-dark: #217069;
