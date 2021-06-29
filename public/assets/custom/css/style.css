@@ -8566,7 +8566,7 @@ a {
   text-decoration: none; }
 
 .bg-primary {
-  background-color: var(--primary) !important; }
+  background-color: #fd7e14 !important; }
 
 .text-primary {
   color: var(--primary) !important; }
@@ -9388,13 +9388,13 @@ label {
       top: 0;
       background: transparent; }
       .nav-header .svg-logo-primary-path {
-        fill: var(--primary) !important; }
+        fill: #fd7e14 !important; }
       .nav-header .logo-abbr path:nth-child(1) {
         fill: #759DD9 !important; }
       .nav-header .logo-abbr path:nth-child(2) {
         fill: #F8A961 !important; } }
   .nav-header .svg-logo-primary-path {
-    fill: var(--primary); }
+    fill: #fd7e14; }
 
 @media only screen and (max-width: 1199px) {
   .nav-header {
@@ -22733,11 +22733,11 @@ button {
     background-color: transparent; }
 
 .btn-primary {
-  border-color: var(--primary);
-  background-color: var(--primary); }
+  border-color: #fd7e14;
+  background-color: #fd7e14; }
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    border-color: var(--primary-hover);
-    background-color: var(--primary-hover); }
+    border-color: #fd7e14;
+    background-color: #fd7e14; }
   .btn-primary:focus {
     box-shadow: 0 0 0 0.25rem var(--rgba-primary-5); }
   .btn-primary:disabled, .btn-primary.disabled {
