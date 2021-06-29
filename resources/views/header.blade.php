@@ -1,16 +1,16 @@
 
 <style type="text/css">
 @keyframes ldio-mmpf3wkpx7q {
-  0% { background: #f8b26a }
-  12.5% { background: #f8b26a }
-  12.625% { background: #e15b64 }
-  100% { background: #e15b64 }
+  0% { background: #fd7e14 }
+  12.5% { background: #fd7e14 }
+  12.625% { background: #dc3545 }
+  100% { background: #dc3545 }
 }
 .ldio-mmpf3wkpx7q div {
   position: absolute;
   width: 40px;
   height: 40px;
-  background: #e15b64;
+  background: #dc3545;
   animation: ldio-mmpf3wkpx7q 1s linear infinite;
 }
 .loadingio-spinner-blocks-cct0p10acso {
