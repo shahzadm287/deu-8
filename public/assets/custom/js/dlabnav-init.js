@@ -33,7 +33,7 @@ function getUrlParams(dParam)
     } */
 	
 	dezSettingsOptions = {
-			typography: "cairo",
+			typography: "roboto",
 			version: "light",
 			layout: "horizontal",
 			primary: "color_5",
