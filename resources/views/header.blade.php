@@ -53,6 +53,7 @@
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="{{ asset('assets/custom/js/images/favicon.png') }}" />
 	<link href="{{ asset('assets/custom/vendor/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet">
+	<link href="{{ asset('assets/custom/vendor/datatables/css/jquery.dataTables.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/custom/vendor/dropzone/dist/dropzone.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/custom/css/style.css') }}" rel="stylesheet">
 	
