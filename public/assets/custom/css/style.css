@@ -22764,7 +22764,7 @@ button {
   min-height: 40px; }
 
 .sharp.btn-xs {
-  padding: 3px;
+  padding: 6px;
   width: 26px;
   height: 26px;
   min-width: 26px;
@@ -25595,7 +25595,7 @@ table.dataTable tfoot th {
     border: 0 !important;
     height: 50px;
     width: 50px;
-    padding: 0;
+    padding: 10;
     border-radius: 1rem;
     line-height: 54px;
     display: inline-block;
