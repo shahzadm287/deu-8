@@ -50,7 +50,7 @@
                                             <input type="password" class="form-control" value="Password">
                                         </div>
                                         <div class="text-center mt-4">
-                                            <button type="submit" style="background-color:#dc3545;border-color:#dc3545" class="btn btn-primary btn-block">Sign me up</button>
+                                            <button type="submit" style="background-color:#dc3545;border-color:#dc3545;height: 54px !important;" class="btn btn-primary btn-block">Sign me up</button>
                                         </div>
                                     </form>
                                     <div class="new-account mt-3">
