@@ -26,6 +26,7 @@
     <link href="{{ asset('assets/custom/css/style.css') }}" rel="stylesheet">		
 
 </head>
+
 @include("header");
         <!--**********************************
             Content body start
@@ -104,12 +105,15 @@
         Scripts
     ***********************************-->
 
+	   <!-- Required vendors -->
+    <script src="{{ asset('assets/custom/vendor/global/global.min.js') }}"></script>
     <!-- Toastr -->
     <script src="{{ asset('assets/custom/vendor/toastr/js/toastr.min.js') }}"></script>
 
     <!-- All init script -->
     <script src="{{ asset('assets/custom/js/plugins-init/toastr-init.js') }}"></script>
-	@include('vend');
-    
+	<script src="{{ asset('assets/custom/vendor/jquery-nice-select/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('assets/custom/js/custom.min.js') }}"></script>
+	<script src="{{ asset('assets/custom/js/dlabnav-init.js') }}"></script>    
 </body>
 </html>
