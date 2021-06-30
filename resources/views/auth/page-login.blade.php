@@ -57,11 +57,11 @@
                                             </div>
                                         </div>
                                         <div class="text-center">
-                                            <button type="submit" style="background-color:#dc3545;border-color:#dc3545" class="btn btn-primary btn-block">Sign Me In</button>
+                                            <button type="submit" style="background-color:#dc3545;border-color:#dc3545;height: 54px !important;" class="btn btn-primary btn-block">Sign Me In</button>
                                         </div>
                                     </form>
                                     <div class="new-account mt-3">
-                                        <p>Don't have an account? <a style="color:#dc3545 !important" class="text-primary" href="./page-register.html">Sign up</a></p>
+                                        <p>Don't have an account? <a style="color:#dc3545 !important; height: 54px !important;" class="text-primary" href="#">Sign up</a></p>
                                     </div>
                                 </div>
                             </div>

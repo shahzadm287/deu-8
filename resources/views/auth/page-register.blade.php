@@ -54,7 +54,7 @@
                                         </div>
                                     </form>
                                     <div class="new-account mt-3">
-                                        <p>Already have an account? <a style="color:#dc3545 !important" class="text-primary" href="page-login.html">Sign in</a></p>
+                                        <p>Already have an account? <a style="color:#dc3545 !important;height: 54px !important;" class="text-primary" href="#">Sign in</a></p>
                                     </div>
                                 </div>
                             </div>
