@@ -1,3 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+	<meta name="robots" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Dompet : Payment Admin Template" />
+	<meta property="og:title" content="Dompet : Payment Admin Template" />
+	<meta property="og:description" content="Dompet : Payment Admin Template" />
+	<meta property="og:image" content="https://dompet.dexignlab.com/xhtml/social-image.png" />
+	<meta name="format-detection" content="telephone=no">
+	
+	<!-- PAGE TITLE HERE -->
+	<title>Dompet : Payment Admin Template</title>
+	
+	<!-- FAVICONS ICON -->
+	<link rel="shortcut icon" type="image/png" href="{{ asset('assets/custom/js/images/favicon.png') }}" />
+    <!-- Chartist -->
+    <link rel="stylesheet" href="{{ asset('assets/custom/vendor/chartist/css/chartist.min.css') }}">
+	
+    	<link href="{{ asset('assets/custom/vendor/bootstrap-select/dist/css/bootstrap-select.min.css') }}" rel="stylesheet">
+	<link href="{{ asset('assets/custom/vendor/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/custom/css/style.css') }}" rel="stylesheet">
+
+</head>
 @include("header");
         <!--**********************************
             Content body start
@@ -1654,7 +1684,7 @@
 										<li>
 											<div class="timeline-panel">
 												<div class="media me-2">
-													<img alt="image" width="50" src="images/avatar/1.jpg">
+													<img alt="image" width="50" src="{{ asset('assets/custom/images/avatar/1.jpg') }}">
 												</div>
 												<div class="media-body">
 													<h5 class="mb-1">Dr sultads Send you Photo</h5>
@@ -1730,7 +1760,7 @@
 										<li>
 											<div class="timeline-panel">
 												<div class="media me-2">
-													<img alt="image" width="50" src="images/avatar/4.jpg">
+													<img alt="image" width="50" src="{{ asset('assets/custom/images/avatar/4.jpg') }}">
 												</div>
 												<div class="media-body">
 													<h5 class="mb-1">Dr sultads Send you Photo</h5>
@@ -1750,7 +1780,7 @@
 										<li>
 											<div class="timeline-panel">
 												<div class="media me-2 media-info">
-													<img alt="image" width="50" src="images/avatar/2.jpg">
+													<img alt="image" width="50" src="{{ asset('assets/custom/images/avatar/2.jpg') }}">
 												</div>
 												<div class="media-body">
 													<h5 class="mb-1">Resport created successfully</h5>
@@ -1770,7 +1800,7 @@
 										<li>
 											<div class="timeline-panel">
 												<div class="media me-2 media-success">
-													<img alt="image" width="50" src="images/avatar/3.jpg">
+													<img alt="image" width="50" src="{{ asset('assets/custom/images/avatar/3.jpg') }}">
 												</div>
 												<div class="media-body">
 													<h5 class="mb-1">Reminder : Treatment Time!</h5>

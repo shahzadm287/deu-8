@@ -1,4 +1,5 @@
-@include('header');
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -16,15 +17,15 @@
 	<!-- PAGE TITLE HERE -->
 	<title>Dompet : Payment Admin Template</title>
 	
-	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+		<!-- FAVICONS ICON -->
+	<link rel="shortcut icon" type="image/png" href="{{ asset('assets/custom/js/images/favicon.png') }}" />
     <!-- Form step -->
-    <link href="./vendor/jquery-smartwizard/dist/css/smart_wizard.min.css" rel="stylesheet">
-    <!-- Custom Stylesheet -->
-	<link href="./vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
+    <link href="{{ asset('assets/custom/vendor/jquery-smartwizard/dist/css/smart_wizard.min.css') }}" rel="stylesheet">
+	<link href="{{ asset('assets/custom/vendor/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/custom/css/style.css') }}" rel="stylesheet">
 
 </head>
+@include('header');
 
         <!--**********************************
             Content body start

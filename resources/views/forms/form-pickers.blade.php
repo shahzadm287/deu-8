@@ -1,3 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+	<meta name="robots" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Dompet : Payment Admin Template" />
+	<meta property="og:title" content="Dompet : Payment Admin Template" />
+	<meta property="og:description" content="Dompet : Payment Admin Template" />
+	<meta property="og:image" content="https://dompet.dexignlab.com/xhtml/social-image.png" />
+	<meta name="format-detection" content="telephone=no">
+	
+	<!-- PAGE TITLE HERE -->
+	<title>Dompet : Payment Admin Template</title>
+	
+	<!-- FAVICONS ICON -->
+	<link rel="shortcut icon" type="image/png" href="{{ asset('assets/custom/js/images/favicon.png') }}" />
+    <!-- Daterange picker -->
+    <link href="{{ asset('assets/custom/vendor/bootstrap-daterangepicker/daterangepicker.css') }}" rel="stylesheet">
+    <!-- Clockpicker -->
+    <link href="{{ asset('assets/custom/vendor/clockpicker/css/bootstrap-clockpicker.min.css') }}" rel="stylesheet">
+    <!-- asColorpicker -->
+    <link href="{{ asset('assets/custom/vendor/jquery-asColorPicker/css/asColorPicker.min.css') }}" rel="stylesheet">
+    <!-- Material color picker -->
+    <link href="{{ asset('assets/custom/vendor/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css') }}" rel="stylesheet">
+	
+    <!-- Pick date -->
+    <link rel="stylesheet" href="{{ asset('assets/custom/vendor/pickadate/themes/default.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/custom/vendor/pickadate/themes/default.date.css') }}">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+	<link href="{{ asset('assets/custom/vendor/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/custom/css/style.css') }}" rel="stylesheet">
+
+
+</head>
 @include("header");
         <!--**********************************
             Content body start
@@ -188,34 +228,36 @@
         Scripts
     ***********************************-->
     <!-- Required vendors -->
-    <script src="./vendor/global/global.min.js"></script>
-	<script src="./vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
-    <script src="./vendor/chart.js/Chart.bundle.min.js"></script>
+    <script src="{{ asset('assets/custom/vendor/global/global.min.js') }}"></script>
+	<script src="{{ asset('assets/custom/vendor/bootstrap-select/dist/js/bootstrap-select.min.js') }}"></script>
+    <script src="{{ asset('assets/custom/vendor/chart.js/Chart.bundle.min.js') }}"></script>
 	<!-- Apex Chart -->
-	<script src="./vendor/apexchart/apexchart.js"></script>
+	<script src="{{ asset('assets/custom/vendor/apexchart/apexchart.js') }}"></script>
     
 
 
     <!-- Daterangepicker -->
     <!-- momment js is must -->
-    <script src="./vendor/moment/moment.min.js"></script>
-    <script src="./vendor/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <script src="{{ asset('assets/custom/vendor/moment/moment.min.js') }}"></script>
+    <script src="{{ asset('assets/custom/vendor/bootstrap-daterangepicker/daterangepicker.js') }}"></script>
     <!-- clockpicker -->
-    <script src="./vendor/clockpicker/js/bootstrap-clockpicker.min.js"></script>
+    <script src="{{ asset('assets/custom/vendor/clockpicker/js/bootstrap-clockpicker.min.js') }}"></script>
     <!-- asColorPicker -->
-    <script src="./vendor/jquery-asColor/jquery-asColor.min.js"></script>
-    <script src="./vendor/jquery-asGradient/jquery-asGradient.min.js"></script>
-    <script src="./vendor/jquery-asColorPicker/js/jquery-asColorPicker.min.js"></script>
+    <script src="{{ asset('assets/custom/vendor/jquery-asColor/jquery-asColor.min.js') }}"></script>
+    <script src="{{ asset('assets/custom/vendor/jquery-asGradient/jquery-asGradient.min.js') }}"></script>
+    <script src="{{ asset('assets/custom/vendor/jquery-asColorPicker/js/jquery-asColorPicker.min.js') }}"></script>
     <!-- Material color picker -->
-    <script src="./vendor/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
-    <!-- pickdate -->
+    <script src="{{ asset('assets/custom/vendor/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js') }}"></script>
+   
+
+
+   <!-- pickdate -->
     <script src="{{ asset('assets/custom/vendor/pickadate/picker.js') }}"></script>
     <script src="{{ asset('assets/custom/vendor/pickadate/picker.time.js') }}"></script>
     <script src="{{ asset('assets/custom/vendor/pickadate/picker.date.js') }}"></script>
 
 
-
-    <!-- Daterangepicker -->
+   <!-- Daterangepicker -->
     <script src="{{ asset('assets/custom/js/plugins-init/bs-daterange-picker-init.js') }}"></script>
     <!-- Clockpicker init -->
     <script src="{{ asset('assets/custom/js/plugins-init/clock-picker-init.js') }}"></script>
@@ -225,6 +267,16 @@
     <script src="{{ asset('assets/custom/js/plugins-init/material-date-picker-init.js') }}"></script>
     <!-- Pickdate -->
     <script src="{{ asset('assets/custom/js/plugins-init/pickadate-init.js') }}"></script>
+
+	<script src="{{ asset('assets/custom/vendor/jquery-nice-select/js/jquery.nice-select.min.js') }}"></script>
+
+    <script src="{{ asset('assets/custom/js/custom.min.js') }}"></script>
+	<script src="{{ asset('assets/custom/js/dlabnav-init.js') }}"></script>
+	
+	
+	
+	
+	
 	@include('vend');
     
 </body>
