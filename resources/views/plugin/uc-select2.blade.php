@@ -20,7 +20,6 @@
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="{{ asset('assets/custom/images/favicon.png') }}" />
 	<link rel="stylesheet" href="{{ asset('assets/custom/vendor/select2/css/select2.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/custom/vendor/nouislider/nouislider.min.css') }}">
 	<link href="{{ asset('assets/custom/vendor/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet">
 		
     <link href="{{ asset('assets/custom/css/style.css') }}" rel="stylesheet">
@@ -754,9 +753,9 @@
     ***********************************-->
     <!-- Required vendors -->
     
+    @include('vend');
     <script src="{{ asset('assets/custom/vendor/select2/js/select2.full.min.js') }}"></script>
     <script src="{{ asset('assets/custom/js/plugins-init/select2-init.js') }}"></script>
-    @include('vend');
 	
     
 </body>
