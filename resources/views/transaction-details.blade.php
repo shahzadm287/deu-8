@@ -18,8 +18,8 @@
 	<title>Dompet : Payment Admin Template</title>
 	
 	<!-- FAVICONS ICON -->
-	<link href="./vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
-	<link rel="stylesheet" href="./vendor/nouislider/nouislider.min.css">
+	<link href="{{ asset('assets/custom/vendor/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet">
+	<link rel="stylesheet" href="{{ asset('assets/custom/vendor/nouislider/nouislider.min.css') }}">
 	<!-- Style css -->
 	
 	<link rel="shortcut icon" type="image/png" href="{{ asset('assets/custom/js/images/favicon.png') }}" />
@@ -132,11 +132,9 @@
 								</div>
 								<div class="dropdown">
 									<a href="javascript:void(0);" class="btn-link" data-bs-toggle="dropdown" aria-expanded="false">
-										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-											<path d="M12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-											<path d="M12 20C12.5523 20 13 19.5523 13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-										</svg>
+									<!---{{ asset('assets/custom/images/im.svg') }}--->
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 20C12.5523 20 13 19.5523 13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+
 									</a>
 									<div class="dropdown-menu dropdown-menu-right" style="margin: 0px;">
 										<a class="dropdown-item" href="javascript:void(0);">Delete</a>
@@ -148,6 +146,7 @@
 								<div id="activityChart"></div>
 							</div>
 						</div>
+						
 					</div>
 					<div class="col-xl-3">
 						<div class="card">
@@ -231,17 +230,20 @@
     <!--**********************************
         Scripts
     ***********************************-->
-    <!-- Required vendors -->
-    @include('vend');
+
+	    <!-- Required vendors -->
+    <script src="{{ asset('assets/custom/vendor/global/global.min.js') }}"></script>
 	<script src="{{ asset('assets/custom/vendor/chart.js/Chart.bundle.min.js') }}"></script>
+	<script src="{{ asset('assets/custom/vendor/jquery-nice-select/js/jquery.nice-select.min.js') }}"></script>
 	<!-- Apex Chart -->
 	<script src="{{ asset('assets/custom/vendor/apexchart/apexchart.js') }}"></script>
-	<script src="{ asset('assets/custom/js/dashboard/transaction-details.js') }}"></script>
+	<script src="{{ asset('assets/custom/js/dashboard/transaction-details.js') }}"></script>
 	<!-- Datatable -->
-    <script src="{{ asset('assets/custom/vendor/datatables/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset('assets/custom/js/plugins-init/datatables.init.js') }}"></script>
+	<script src="{{ asset('assets/custom/vendor/datatables/js/jquery.dataTables.min.js') }}"></script>
+	<script src="{{ asset('assets/custom/js/plugins-init/datatables.init.js') }}"></script>
 
-	
+    <script src="{{ asset('assets/custom/js/custom.min.js') }}"></script>
+	<script src="{{ asset('assets/custom/js/dlabnav-init.js') }}"></script>
     
 	
 </body>

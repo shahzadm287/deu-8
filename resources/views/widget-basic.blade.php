@@ -2041,6 +2041,7 @@
         Scripts
     ***********************************-->
     <!-- Required vendors -->
+    <script src="{{ asset('assets/custom/vendor/global/global.min.js') }}"></script>
     <script src="{{ asset('assets/custom/vendor/chart.js/Chart.bundle.min.js') }}"></script>
 	<!-- Apex Chart -->
 	<script src="{{ asset('assets/custom/vendor/apexchart/apexchart.js') }}"></script>
@@ -2065,7 +2066,10 @@
 	
     <!-- Init file -->
     <script src="{{ asset('assets/custom/js/plugins-init/widgets-script-init.js') }}"></script>
-	@include('vend');
-    
+	<script src="{{ asset('assets/custom/vendor/jquery-nice-select/js/jquery.nice-select.min.js') }}"></script>
+	
+    <script src="{{ asset('assets/custom/js/custom.min.js') }}"></script>
+	<script src="{{ asset('assets/custom/js/dlabnav-init.js') }}"></script>
+	
 </body>
 </html>

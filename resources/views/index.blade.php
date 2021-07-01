@@ -21,7 +21,7 @@
 		<link rel="shortcut icon" type="image/png" href="{{ asset('assets/custom/images/favicon.png') }}" />
 		
 		<link href="{{ asset('assets/custom/vendor/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet">
-		<link rel="stylesheet" href="{!! asset('assets/custom/vendor/nouislider/nouislider.min.css') !!}}">
+		<link rel="stylesheet" href="{{ asset('assets/custom/vendor/nouislider/nouislider.min.css') }}">
 		<!-- Style css -->
 		<link href="{{ asset('assets/custom/css/style.css') }}" rel="stylesheet">
 		
