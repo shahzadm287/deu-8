@@ -18,7 +18,7 @@
 	<title>Dompet : Payment Admin Template</title>
 	
 	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+	<link rel="shortcut icon" type="image/png" href="{{ asset('assets/custom/images/favicon.png') }}" />
     <link href="{{ asset('assets/custom/css/style.css') }}" rel="stylesheet">
 
 </head>
@@ -33,7 +33,7 @@
                             <div class="col-xl-12">
                                 <div class="auth-form">
 									<div class="text-center mb-3">
-										<a href="index.html"><img src="images/logo-full.png" alt=""></a>
+										<a href="#"><img src="{{ asset('assets/custom/images/logo-full.png') }}" alt=""></a>
 									</div>
                                     <h4 class="text-center mb-4">Sign up your account</h4>
                                     <form action="index.html">
@@ -69,7 +69,9 @@
 	Scripts
 ***********************************-->
 <!-- Required vendors -->
-@include('vend');
+<script src="{{ asset('assets/custom/vendor/global/global.min.js') }}"></script>
+<script src="{{ asset('assets/custom/js/custom.min.js') }}"></script>
+<script src="{{ asset('assets/custom/js/dlabnav-init.js') }}"></script>
 
 </body>
 </html>
