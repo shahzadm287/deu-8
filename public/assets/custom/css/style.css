@@ -13090,7 +13090,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   --font-family-title: Roboto, sans-serif;
   --title: #000; }
 
-@media (min-width: 1582px) {
+@media (min-width: 1023px) {
   [data-layout="horizontal"] .nav-header {
     width: 21.563rem;
     height: 5.5rem;
