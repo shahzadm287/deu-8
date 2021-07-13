@@ -862,7 +862,7 @@
                                 <div class="basic-form">
                                     <form action="#">
                                         <div class="input-group mb-3">
-											<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">Dropdown</button>
+											<button style = "height: 2.60rem !important" class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">Dropdown</button>
 											<div class="dropdown-menu">
 												<a class="dropdown-item" href="#">Action</a>
 												<a class="dropdown-item" href="#">Another action</a>
@@ -875,7 +875,7 @@
 
                                         <div class="input-group">
                                             <input type="text" class="form-control">
-											<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">Dropdown</button>
+											<button style = "height: 2.60rem !important" class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">Dropdown</button>
 											<div class="dropdown-menu">
 												<a class="dropdown-item" href="#">Action</a>
 												<a class="dropdown-item" href="#">Another action</a>

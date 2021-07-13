@@ -2309,7 +2309,7 @@ textarea.form-control-lg {
     z-index: 3; }
   .input-group .btn {
     position: relative;
-    z-index: 2; }
+    /*z-index: 2;*/ }
     .input-group .btn:focus {
       z-index: 3; }
 
@@ -2325,7 +2325,7 @@ textarea.form-control-lg {
   white-space: nowrap;
   background-color: #e9ecef;
   border: 1px solid #f5f5f5;
-  border-radius: 0.75rem; }
+  border-radius: 0.25rem; }
 
 .input-group-lg > .form-control,
 .input-group-lg > .form-select,
@@ -2489,7 +2489,7 @@ textarea.form-control-lg {
 .btn {
   display: inline-block;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 0.5;
   color: #969ba0;
   text-align: center;
   text-decoration: none;
@@ -22722,7 +22722,7 @@ button {
 
 .btn {
   padding: 0.938rem 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   font-weight: 400;
   font-size: 1rem; }
   .btn:hover, .btn:focus, .btn:active, .btn.active {
@@ -27185,7 +27185,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
     width: 80px; } }
 
 .nice-select.default-select {
-  line-height: 2.6rem; }
+  line-height: 1.6rem; }
   @media only screen and (max-width: 575px) {
     .nice-select.default-select {
       line-height: 1.6rem; } }
