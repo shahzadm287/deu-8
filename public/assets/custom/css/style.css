@@ -30047,6 +30047,9 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
       color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
+
+  /* Shahzad Designer code might be reuse able for nav bar fixing  */ 
+/*
 @media (min-width: 1461px) and (max-width: 1582px){
   .dlabnav .metismenu > li > a {
     font-size: 22px!important;
@@ -30244,3 +30247,5 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   width: 100%;
   justify-content: space-between;
 }
+
+*/
