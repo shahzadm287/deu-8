@@ -20387,11 +20387,11 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 #chart_employee_gender, #chart_employee_status {
   width: auto;
   height: 350px; }
-
+/*shatty changes*/
 .form-control {
   background: #fff;
   border: 1px solid #c8c8c8;
-  padding: 5px 20px;
+  padding: 8px 14px;
   color: #6e6e6e;
   height: 40px;
   border-radius:0.25rem; }
