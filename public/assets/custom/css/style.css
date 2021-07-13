@@ -1945,7 +1945,7 @@ progress {
   background-clip: padding-box;
   border: 1px solid #f5f5f5;
   appearance: none;
-  border-radius: 0.75rem;
+  border-radius: 0.5rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
     .form-control {
@@ -2209,7 +2209,7 @@ textarea.form-control-lg {
     margin-top: -0.25rem;
     background-color: #5bcfc5;
     border: 0;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     appearance: none; }
     @media (prefers-reduced-motion: reduce) {
@@ -2224,13 +2224,13 @@ textarea.form-control-lg {
     cursor: pointer;
     background-color: #dee2e6;
     border-color: transparent;
-    border-radius: 1rem; }
+    border-radius: 0.5rem; }
   .form-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
     background-color: #5bcfc5;
     border: 0;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     appearance: none; }
     @media (prefers-reduced-motion: reduce) {
@@ -2245,7 +2245,7 @@ textarea.form-control-lg {
     cursor: pointer;
     background-color: #dee2e6;
     border-color: transparent;
-    border-radius: 1rem; }
+    border-radius:0.5rem; }
   .form-range:disabled {
     pointer-events: none; }
     .form-range:disabled::-webkit-slider-thumb {
@@ -8547,7 +8547,7 @@ p {
     opacity: 1; }
 
 .rounded-lg {
-  border-radius: 1rem; }
+  border-radius:0.5rem; }
 
 ul {
   padding: 0;
@@ -9774,7 +9774,7 @@ svg.pulse-svg {
     position: relative;
     color: var(--primary);
     background: transparent;
-    border-radius: 1rem;
+    border-radius:0.5rem;
     padding: 15px;
     line-height: 1; }
     @media only screen and (max-width: 1400px) {
@@ -9829,7 +9829,7 @@ svg.pulse-svg {
       border: 0; }
     .header-right .search-area .input-group-text {
       height: 56px;
-      border-radius: 1rem;
+      border-radius:0.5rem;
       background: #f3f3f3;
       padding: 0 20px; }
       .header-right .search-area .input-group-text i {
@@ -12271,7 +12271,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
           color: rgba(0, 0, 0, 0.3);
           width: 60px;
           height: 60px;
-          border-radius: 1rem;
+          border-radius:0.5rem;
           line-height: 60px;
           margin-left: auto;
           margin-right: auto;
@@ -12692,7 +12692,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   [data-sidebar-style="full"][data-layout="vertical"] .dlabnav .metismenu > li > a {
     font-size: 18px;
     padding: 22px 20px;
-    border-radius: 1rem;
+    border-radius:0.5rem;
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
     transition: all 0.5s; }
@@ -12994,14 +12994,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     [data-sidebar-style="mini"][data-layout="vertical"] .dlabnav .metismenu > li.mm-active > a {
       background: var(--rgba-primary-1);
       color: #fff;
-      border-radius: 1rem; }
+      border-radius:0.5rem; }
       [data-sidebar-style="mini"][data-layout="vertical"] .dlabnav .metismenu > li.mm-active > a i {
         color: var(--primary); }
     [data-sidebar-style="mini"][data-layout="vertical"] .dlabnav .metismenu > li:hover > a {
       background: var(--rgba-primary-1);
       color: #fff;
       box-shadow: 0 12px 15px 0 var(--rgba-primary-1);
-      border-radius: 1rem;
+      border-radius:0.5rem;
       position: unset; }
       [data-sidebar-style="mini"][data-layout="vertical"] .dlabnav .metismenu > li:hover > a i {
         color: var(--primary); }
@@ -13114,7 +13114,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     padding-bottom: 0;
     top: 0;
     z-index: 2;
-    border-radius: 1rem; }
+    border-radius:0.5rem; }
     [data-layout="horizontal"] .dlabnav .slimScrollDiv {
       overflow: visible !important; }
       [data-layout="horizontal"] .dlabnav .slimScrollDiv .dlabnav-scroll {
@@ -13170,7 +13170,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
           box-shadow: 0px 0px 40px 0px rgba(82, 63, 105, 0.1);
           margin: 0;
           background: #fff;
-          border-radius: 1rem; }
+          border-radius:0.5rem; }
           [data-theme-version="dark"][data-layout="horizontal"] .dlabnav .metismenu li > ul {
             box-shadow: 0px 0px 40px 0px rgba(82, 63, 105, 0.1);
             background: #212130; }
@@ -13211,7 +13211,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
           [data-layout="horizontal"] .dlabnav .metismenu > li:hover > a, [data-layout="horizontal"] .dlabnav .metismenu > li.mm-active > a {
             background: var(--rgba-primary-1);
             color: var(--primary);
-            border-radius: 1rem; }
+            border-radius:0.5rem; }
             [data-layout="horizontal"] .dlabnav .metismenu > li:hover > a i, [data-layout="horizontal"] .dlabnav .metismenu > li.mm-active > a i {
               color: var(--primary);
               background: transparent;
@@ -13245,7 +13245,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
             flex-wrap: wrap;
             height: auto !important;
             box-shadow: 5px 5px 30px 0px rgba(20, 0, 30, 0.1);
-            border-radius: 1rem; }
+            border-radius:0.5rem; }
             [data-theme-version="dark"][data-layout="horizontal"] .dlabnav .metismenu > li:hover > ul {
               box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.1);
               background: #212130; }
@@ -13554,7 +13554,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
         display: flex;
         justify-content: space-between;
         padding: 20px 20px;
-        border-radius: 1rem; }
+        border-radius:0.5rem; }
         [data-sidebar-style="icon-hover"][data-layout="vertical"] .dlabnav .metismenu > li > a > svg, [data-sidebar-style="icon-hover"][data-layout="vertical"] .dlabnav .metismenu > li > a > i {
           order: 1;
           margin-right: 0;
@@ -13654,7 +13654,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
       text-align: center;
       margin: 0 -10px 15px;
       padding: 15px 10px !important;
-      border-radius: 1rem; }
+      border-radius:0.5rem; }
       [data-sidebar-style="modern"] .dlabnav .header-profile > a.nav-link img {
         margin-bottom: 5px; }
       [data-sidebar-style="modern"] .dlabnav .header-profile > a.nav-link .header-info {
@@ -13679,7 +13679,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
       [data-sidebar-style="modern"] .dlabnav .metismenu > li:hover > a, [data-sidebar-style="modern"] .dlabnav .metismenu > li.mm-active > a {
         background: var(--rgba-primary-1);
         color: var(--primary);
-        border-radius: 1rem; }
+        border-radius:0.5rem; }
         [data-sidebar-style="modern"] .dlabnav .metismenu > li:hover > a i, [data-sidebar-style="modern"] .dlabnav .metismenu > li.mm-active > a i {
           color: var(--primary); }
     [data-sidebar-style="modern"] .dlabnav .metismenu > li li {
@@ -13819,7 +13819,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
       font-size: 16px;
       padding: 20px 20px;
       color: #7f7184;
-      border-radius: 1rem;
+      border-radius:0.5rem;
       -webkit-transition: all 0.5s;
       -ms-transition: all 0.5s;
       transition: all 0.5s; }
@@ -13922,7 +13922,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   background-color: #fff;
   margin-top: 3.5rem;
   transition: all .5s ease-in-out;
-  border-radius: 1rem;
+  border-radius:0.5rem;
   z-index: 9999; }
   .sidebar-right .bg-label-pattern {
     background: transparent;
@@ -14521,7 +14521,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     height: 30px;
     color: #fff;
     width: 30px;
-    border-radius: 1rem;
+    border-radius:0.5rem;
     background: rgba(0, 0, 0, 0.5);
     line-height: 30px;
     text-align: center; }
@@ -19770,7 +19770,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     display: inline-block;
     padding: 0;
     text-align: center;
-    border-radius: 1rem;
+    border-radius:0.5rem;
     color: #fff;
     width: 55px;
     line-height: 54px; }
@@ -20390,11 +20390,11 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 
 .form-control {
   background: #fff;
-  border: 1px solid #f5f5f5;
+  border: 1px solid #c8c8c8;
   padding: 5px 20px;
   color: #6e6e6e;
-  height: 56px;
-  border-radius: 1rem; }
+  height: 40px;
+  border-radius:0.25rem; }
   @media only screen and (max-width: 1400px) {
     .form-control {
       height: 41px; } }
@@ -20556,7 +20556,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 .select2-container--default
 .select2-selection--multiple
 .select2-selection__choice {
-  border-radius: 1rem; }
+  border-radius:0.5rem; }
 
 :root {
   --primary: #5bcfc5;
@@ -20978,7 +20978,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   width: 100% !important; }
 
 .select2-container--default .select2-selection--single {
-  border-radius: 1rem;
+  border-radius:0.25rem;
   border: 1px solid #c8c8c8;
   height: 40px;
   background: #fff; }
@@ -21015,7 +21015,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 .select2-container .select2-selection--multiple {
   min-height: 40px;
   color: #969ba0;
-  border-radius: 1rem;
+  border-radius:0.25rem;
   border: 1px solid #c8c8c8; }
   [data-theme-version="dark"] .select2-container .select2-selection--multiple {
     background: #171622;
@@ -22066,7 +22066,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   position: relative;
   color: #333;
   font-weight: 400;
-  border-radius: 1rem;
+  border-radius:0.5rem;
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s;
   transition: all 0.5s; }
@@ -22108,7 +22108,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   [data-theme-version="dark"] .accordion-bordered .accordion__body {
     border-color: #2e2e42; }
 .accordion-bordered .accordion-header.collapsed {
-  border-radius: 1rem; }
+  border-radius:0.5rem; }
 .accordion-bordered .accordion-header {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0; }
@@ -22197,7 +22197,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   [data-theme-version="dark"] .accordion-solid-bg .accordion-header {
     background-color: #171622; }
   .accordion-solid-bg .accordion-header.collapsed {
-    border-radius: 1rem; }
+    border-radius:0.5rem; }
 .accordion-solid-bg .accordion__body {
   border-color: transparent;
   background-color: var(--rgba-primary-1);
@@ -22235,7 +22235,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   border-color: transparent; }
 
 .alert {
-  border-radius: 1rem;
+  border-radius:0.5rem;
   padding: 1rem 1.5rem; }
   .alert p {
     line-height: 1.5; }
@@ -22650,7 +22650,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   padding: 15px 40px;
   background: #fff;
   margin-bottom: 30px;
-  border-radius: 1rem;
+  border-radius:0.5rem;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0; }
@@ -22722,7 +22722,7 @@ button {
 
 .btn {
   padding: 0.938rem 1.5rem;
-  border-radius: 1.125rem;
+  border-radius: 0.5rem;
   font-weight: 400;
   font-size: 1rem; }
   .btn:hover, .btn:focus, .btn:active, .btn.active {
@@ -23444,7 +23444,7 @@ button {
   transition: all .5s ease-in-out;
   position: relative;
   border: 0px solid transparent;
-  border-radius: 1rem;
+  border-radius:0.5rem;
   box-shadow: 0px 5px 5px 0px rgba(82, 63, 105, 0.05);
   height: calc(100% - 30px); }
   @media only screen and (max-width: 575px) {
@@ -23652,7 +23652,7 @@ button {
   border: 0;
   z-index: 2;
   overflow: hidden;
-  border-radius: 1rem;
+  border-radius:0.5rem;
   box-shadow: 0 0 50px 0 rgba(82, 63, 105, 0.15);
   margin-top: 0; }
   .dropdown-menu .dropdown-item {
@@ -23974,7 +23974,7 @@ code {
   padding: 1rem 1.875rem; }
 
 .modal-content {
-  border-radius: 1rem; }
+  border-radius:0.5rem; }
 
 .modal-backdrop {
   z-index: 10 !important; }
@@ -24222,7 +24222,7 @@ code {
   [data-theme-version="dark"] .progress {
     background-color: #171622; }
   .progress-bar {
-    border-radius: 1rem; }
+    border-radius:0.5rem; }
 
 .progress-vertical {
   display: inline-block;
@@ -24462,7 +24462,7 @@ code {
         border-color: #f5f5f5; }
 
 .nav-pills .nav-link {
-  border-radius: 1rem;
+  border-radius:0.5rem;
   padding: 0.75rem 1.25rem; }
 
 .default-tab .nav-link {
@@ -25600,7 +25600,7 @@ table.dataTable tfoot th {
     height: 50px;
     width: 50px;
     padding: 10;
-    border-radius: 1rem;
+    border-radius:0.5rem;
     line-height: 40px;
     display: inline-block;
     color: var(--primary) !important; }
@@ -25625,7 +25625,7 @@ table.dataTable tfoot th {
     line-height: 50px;
     text-align: center;
     font-size: 18px;
-    border-radius: 1rem;
+    border-radius:0.5rem;
     color: var(--primary) !important;
     border: 0 !important; }
     @media only screen and (max-width: 575px) {
@@ -25669,7 +25669,7 @@ table.dataTable.no-footer {
 
 .dataTablesCard {
   background-color: #fff;
-  border-radius: 1rem; }
+  border-radius:0.5rem; }
   .dataTablesCard.border-no td {
     border-top: 0 !important; }
 
@@ -25687,7 +25687,7 @@ table.dataTable.no-footer {
 .dataTables_wrapper .dataTables_processing,
 .dataTables_wrapper .dataTables_paginate {
   color: #969ba0;
-  border-radius: 1rem;
+  border-radius:0.5rem;
   padding: 2px 0;
   margin-bottom: 20px; }
 
@@ -26262,7 +26262,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
   .patient-calender .bootstrap-datetimepicker-widget table td,
   .patient-calender .bootstrap-datetimepicker-widget table th {
     padding: 15px 5px;
-    border-radius: 1rem; }
+    border-radius:0.5rem; }
   .patient-calender .bootstrap-datetimepicker-widget table th {
     height: 20px;
     line-height: 20px;
@@ -26588,7 +26588,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
   transform: rotate(40deg);
   top: -35px;
   right: -35px;
-  border-radius: 1rem;
+  border-radius:0.5rem;
   background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
   background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
   background: linear-gradient(to right, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
@@ -26599,7 +26599,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
   transform: rotate(40deg);
   bottom: -40px;
   right: -30px;
-  border-radius: 1rem;
+  border-radius:0.5rem;
   background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
   background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
   background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
@@ -26610,7 +26610,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
   transform: rotate(-45deg);
   top: -35px;
   right: 30px;
-  border-radius: 1rem;
+  border-radius:0.5rem;
   background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
   background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
   background: linear-gradient(to right, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
@@ -26621,7 +26621,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
   transform: rotate(145deg);
   bottom: -45px;
   right: 0px;
-  border-radius: 1rem;
+  border-radius:0.5rem;
   background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
   background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
   background: linear-gradient(to right, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
@@ -26649,7 +26649,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
 .card-bx {
   position: relative;
   z-index: 1;
-  border-radius: 1rem;
+  border-radius:0.5rem;
   overflow: hidden;
   padding: 30px 35px;
   display: flex; }
@@ -26789,7 +26789,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
         width: 100%; }
 .card-tabs.style-1 .nav-tabs {
   background: #fff;
-  border-radius: 1rem;
+  border-radius:0.5rem;
   padding: 5px;
   border: 0;
   width: max-content; }
@@ -26863,7 +26863,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
 
 .user-bx {
   background: var(--rgba-primary-1);
-  border-radius: 1rem;
+  border-radius:0.5rem;
   display: flex;
   align-items: center;
   padding: 10px 18px;
@@ -26872,7 +26872,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
     height: 60px;
     width: 60px;
     margin-right: 1rem;
-    border-radius: 1rem; }
+    border-radius:0.5rem; }
   .user-bx > div {
     flex: 1; }
   .user-bx .user-name {
@@ -26918,7 +26918,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
     color: #000; }
 
 .ic-card {
-  border-radius: 1rem;
+  border-radius:0.5rem;
   overflow: hidden;
   display: flex;
   margin-top: 30px; }
@@ -26938,7 +26938,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
     line-height: 62px;
     text-align: center;
     color: #fff;
-    border-radius: 1rem;
+    border-radius:0.5rem;
     display: block; }
   .ic-card span {
     font-size: 16px;
@@ -26976,7 +26976,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
   -webkit-transition: all 0.2s;
   -ms-transition: all 0.2s;
   transition: all 0.2s;
-  border-radius: 1rem 1rem 0 0;
+  border-radius:0.5rem 1rem 0 0;
   border-bottom: 1px solid #425e71;
   padding: 18px 4.0625rem 5px 30px; }
   .accordion.style-1 .accordion-header > span {
@@ -27028,7 +27028,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
     .accordion.style-1 .accordion-header.collapsed .profile-image img {
       height: 63px;
       width: 63px;
-      border-radius: 1rem; }
+      border-radius:0.5rem; }
   .accordion.style-1 .accordion-header > * {
     padding-right: 15px;
     margin-bottom: 15px; }
@@ -27055,7 +27055,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
       padding: 8px 15px;
       align-items: center;
       background: #416277;
-      border-radius: 1rem; }
+      border-radius:0.5rem; }
     .accordion.style-1 .accordion_body .payment-details span {
       font-size: 1rem; }
 
@@ -27140,7 +27140,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
       color: #464646; }
   .transaction-details .amount-bx {
     background: #fff6e0;
-    border-radius: 1rem;
+    border-radius:0.5rem;
     width: 330px;
     display: flex;
     padding: 20px;
@@ -27150,7 +27150,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
       width: 54px;
       font-size: 25px;
       margin-right: 20px;
-      border-radius: 1rem;
+      border-radius:0.5rem;
       line-height: 54px;
       text-align: center;
       background: #ff7426;
